@@ -1,0 +1,18 @@
+.title{background:url(../images/voucher_title_bg.jpg) center}
+.content{padding-bottom:0}
+.vouchers{width:1200px;margin:50px auto}
+.vouchers ul{overflow:hidden}
+.vouchers li{float:left;font-size:20px}
+.vouchers img,.vouchers p{float:left}
+.vouchers p{margin-left:50px;padding-top:20px;line-height:30px}
+.vouchers span{display:block;color:#d0112b}
+.vouchers .original{margin-right:200px}
+
+.ticket_ex{width:1200px;margin:0 auto 50px;line-height:30px;font-size:18px}
+.notice_bg{padding:50px 0 150px;background:#f0f0f0}
+.notice{width:1200px;margin:auto}
+.notice h3{font-size:20px;font-weight: normal;margin-bottom:10px}
+.notice li{line-height:30px}
+.notice li:before{content:"- "}
+
+.top_btn{margin-top:-50px}

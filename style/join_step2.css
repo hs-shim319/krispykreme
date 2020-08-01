@@ -1,0 +1,42 @@
+.content_wrap{background:url(../images/join_bg.jpg) center no-repeat;background-attachment:fixed;padding:120px 0 50px}
+.join_content{width:1200px;margin:auto}
+
+.join_title{padding-top:50px;box-sizing:border-box}
+.join_title h2{color:#fff;font-size:25px;font-weight:normal;text-align:center;margin-bottom:20px}
+.join_title p{color:#fff;text-align:center;margin-bottom:30px}
+
+.join_step{width:810px;margin:0 auto 30px;overflow:hidden}
+.join_step dl{border:10px solid #808080;width:140px;height:140px;box-sizing:border-box;border-radius:70px;text-align:center;color:#808080;float:left}
+.join_step .step1,.join_step .step2{border:10px solid #fff;color:#fff}
+.join_step dt{margin-top:25px;margin-bottom:10px}
+.join_step .step2 dd,.join_step .step3 dd{margin-top:20px}
+.step1_step2{display:block;float:left;width:195px;height:140px;background:url(../images/join_step_current.png) no-repeat center}
+.step2_step3{display:block;float:left;width:195px;height:140px;background:url(../images/join_step.png) no-repeat center}
+
+.join_info{background:rgba(255,255,255,0.8);padding:50px 60px;margin:auto;width:1200px;box-sizing: border-box}
+fieldset{border:0;margin:0;padding:0}
+.join_info legend.t{font-weight:bold;text-align:center;width:500px;font-size:16px;margin-bottom:20px}
+.join_info legend.b{font-weight:bold;text-align:center;font-size:16px;margin-bottom:20px}
+.form_top{width:500px;margin:auto;padding-bottom:20px}
+.text{display:block;margin-bottom:5px}
+.input_text{height:50px;width:500px;background:rgba(0,0,0,0);border:1px solid #808080;padding-left:10px;box-sizing:border-box;margin-bottom:15px}
+.join_info input.input_text_email{height:50px;width:239px;background:rgba(0,0,0,0);border:1px solid #808080;padding-left:10px;box-sizing:border-box;margin-bottom:15px}
+.input_text_btn{height:50px;width:385px;background:rgba(0,0,0,0);border:1px solid #808080;padding-left:10px;box-sizing:border-box;margin-bottom:15px}
+.form_btn{border:1px solid #808080;width:100px;line-height:50px;display:inline-block;box-sizing:border-box;text-align:center;box-sizing:border-box;margin-left:10px}
+.form_btn:hover{border:1px solid #166936;background:#166936;color:#fff}
+.hint{display:block;margin:-10px 0 15px;font-size:12px;color:#4e4e4e}
+.right_hint{font-size:12px;color:#4e4e4e}
+.red_txt{color:#d0112b;font-size:12px}
+.postalcode{height:50px;width:385px;background:rgba(0,0,0,0);border:1px solid #808080;padding-left:10px;box-sizing:border-box}
+.addr_input_text{height:50px;width:500px;background:rgba(0,0,0,0);border:1px solid #808080;padding-left:10px;box-sizing:border-box;margin-left:-5px;margin-top:5px}
+.addr{margin-bottom:15px}
+
+.form_bottom{display:block;padding-top:35px;border-top:1px solid #a0a0a0}
+select{width:500px;height:50px;float:right;border:1px solid #808080;background:rgba(0,0,0,0);padding-left:10px}
+select.select_email{width:500px;height:50px;float:left;border:1px solid #808080;background:rgba(0,0,0,0);padding-left:10px}
+.form_bottom p{line-height:50px;border-bottom:1px solid #c8c8c8;margin-bottom:0;padding:10px 0}
+.form_bottom .input_text{float:right}
+
+.btn{text-align:center;margin-top:30px}
+.submit_btn{width:60px;height:30px;font-size:15px;color:#fff;background:#166936;border:0;margin-right:20px;cursor:pointer}
+.cancel_btn{width:60px;height:30px;font-size:15px;background:#a0a0a0;border:0;cursor:pointer}

@@ -1,0 +1,51 @@
+.ev_list ul{overflow:hidden;padding:130px 0 50px;background:#fff;margin:0 2%}
+.ev_list li{width:29.3%;box-shadow:0 0 10px 2px #e0e0e0;box-sizing:border-box;margin:0 2% 30px;line-height:25px;float:left}
+.ev_list span.img{display:block;height:200px;overflow:hidden}
+.ev_list img{width:100%}
+.ev_list p{padding:15px}
+.ev_list .date{color:#a0a0a0;display:block;font-size:14px}
+.evf_img{display:block;height:200px;overflow:hidden;opacity:0.5}
+
+.event_con{padding:80px 0 50px;margin:0 4%}
+.con_title{font-size:16px;line-height:50px;font-weight:bold}
+.event_con .date{color:#a0a0a0;display:block;font-size:14px;margin-bottom:20px}
+.con_img img{width:100%}
+.con_img a{font-weight:bold;display:block;width:30px;text-align:center;margin:30px auto 0;color:#166936;border-bottom:2px solid #166936}
+
+.winner_list{padding:130px 0 50px;background:#f8f8f8}
+
+.winner_list p{padding:0 4%}
+.winner_list table{width:100%;margin-top:10px;border-top:2px solid #166936}
+.winner_list td{border-bottom:1px solid #e0e0e0;line-height:40px;background:#fff}
+.winner_list td.tdidx{padding:0 4%;color:166936;font-weight:bold;font-size:13px;width:10%;text-align:center}
+.emptytd{padding:0 4%}
+    
+.p_tab{padding-top:110px;border-bottom:1px solid #e0e0e0}
+.p_tab ul{margin:auto;overflow:hidden}
+.p_tab ul li{float:left;width:33%;height:50px;line-height:50px;text-align:center}
+.p_tab ul li a{display:block}
+.p_tab li.currently{border-bottom:3px solid #d0112b;box-sizing: border-box;color:#d0112b}
+.p_tab ul.dou li,.tab ul.ice li{width:25%}
+.p_tab ul.bev li{width:20%}
+
+.p_list dl{padding:30px 0 0;overflow:hidden;margin:0 2%}
+.p_list dt{font-size:15px;font-weight:bold;text-align:center;margin-bottom:30px}
+.p_list dd{position:relative;display:block;width:29.3%;height:300px;box-sizing:border-box;float:left;margin:0 2% 30px;text-align:center;line-height:25px;box-shadow:0 0 10px 2px #e0e0e0}
+.p_list dd span.img{width:80%;height:100px;display:block;margin:50px auto 0}
+.p_list dd span.txt{display:block;margin-top:10px}
+.p_list dd span.g_txt{display:block;color:#a0a0a0;font-size:12px}
+.p_list a{position:absolute;bottom:30px;left:50%;margin-left:-50px;display:block;border:1px solid #166936;border-radius:20px;width:100px;height:30px;line-height:30px;box-sizing:border-box}
+.p_list p{color:#808080;font-size:13px;margin-bottom:50px;padding:0 4%;line-height:25px}
+.tab2,.tab3{display:none}
+
+@media screen and (max-width:767px) {
+    .ev_list li,.p_list dd{width:46%}
+}
+
+@media screen and (max-width:600px) {
+    .p_list dd{width:96%}
+}
+
+@media screen and (max-width:420px) {
+    .ev_list li{width:96%}
+}

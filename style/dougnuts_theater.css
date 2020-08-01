@@ -1,0 +1,31 @@
+.title{background:url(../images/dougnuts_theater_title_bg.jpg) center}
+.content{padding-bottom:0}
+.video{width:800px;margin:50px auto 20px}
+.video iframe{margin-bottom:20px;width:800px;height:488px;border:0}
+.video p{line-height:25px}
+.video p:before{content:"* "}
+
+.hot_now_wrap{height:200px;background:#d0112b;margin-bottom:50px}
+.hot_now{width:1200px;height:200px;margin:auto;background:url(../images/hotnow_sign.png) no-repeat 170px center;padding:62px 0 0 395px;box-sizing:border-box}
+.hot_now p{font-size:20px;color:#fff}
+.hot_now a{display:block;color:#d0112b;width:210px;line-height:40px;text-align:center;border:1px solid #fff;box-sizing:border-box;border-radius:25px;margin-top:20px;transition:all 1s;color:#fff}
+.hot_now a:hover{background:#d0112b;color:#d0112b;background:#fff;font-weight:bold}
+
+.process{width:1200px;margin:auto;padding:0 100px;box-sizing:border-box}
+.process h4{font-weight:normal;font-size:20px;color:#d0112b}
+.process_num{display:inline-block;width:30px;line-height:30px;text-align:center;background:#d0112b;color:#fff;border-radius:20px;margin-right:10px}
+.process img{width:360px;height:200px}
+.process img,.p_text{float:left}
+.process_1,.process_2,.process_3,.process_4,.process_5{overflow:hidden;padding:15px 0;border-bottom:1px solid #e0e0e0}
+.process_6{overflow:hidden;padding-top:15px}
+.p_text{margin-left:50px;width:590px}
+.p_text p{line-height:25px}
+
+.security_wrap{height:235px;background:#e0e0e0;margin-top:50px}
+.security{width:1200px;height:235px;margin:auto;padding:45px 0 0 460px;box-sizing:border-box;background:url(../images/dougnut_icon.png) no-repeat 200px center}
+.security h3{font-size:20px;font-weight:normal;color:#d0112b;margin-bottom:25px}
+.security p{line-height:30px}
+.security span{display:block}
+
+
+.top_btn{margin-top:-50px}

@@ -1,0 +1,19 @@
+.title{background:url(../images/faq_title_bg.jpg) center}
+
+.faq_tab{border-bottom:1px solid #e0e0e0;margin-bottom:50px}
+.faq_tab ul{width:300px;margin:auto;overflow:hidden}
+.faq_tab li{float:left;width:150px;height:50px;line-height:50px;text-align:center}
+.faq_tab li:hover{color:#d0112b}
+.faq_tab li.currently{border-bottom:3px solid #d0112b;box-sizing: border-box;color:#d0112b}
+    
+.faq_list{width:1200px;margin:auto;border-top:1px solid #a0a0a0;border-bottom:1px solid #a0a0a0}
+.faq_list li{border-bottom:1px solid #e0e0e0;padding:15px 20px}
+.faq_list li.question span.more{float:right;background:url(../images/familysite_more.png) no-repeat;width:20px;text-indent:-9999px}
+.answer{display:none;line-height:30px;background:#f0f0f0}
+.answer span.line{display:block}
+.q{font-weight:bold}
+.a{font-weight:bold;color:#166936}
+
+a.qna{display:block;border:1px solid #166936;width:150px;height:30px;line-height:30px;text-align:center;border-radius:20px;margin:50px auto 0}
+a.qna:hover{background:#166936;color:#fff}
+

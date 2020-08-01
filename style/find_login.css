@@ -1,0 +1,40 @@
+.content_wrap{background:url(../images/join_bg.jpg) center top no-repeat;background-attachment:fixed;overflow:hidden;position:relative;padding:150px 0 50px}
+
+/*find_id.php*/
+.content_wrap h2{color:#fff;text-align:center;font-weight:normal;margin-bottom:50px}
+.find_id,.find_pw{background:rgba(255,255,255,0.8);padding:50px 0;width:1200px;box-sizing:border-box;margin:auto;overflow:auto}
+fieldset{border:0;padding:0;margin:0}
+span.txt{display:block;margin-bottom:10px}
+.find_id form{width:400px;margin:auto}
+.find_id input{width:400px;height:50px;background:rgba(0,0,0,0);border:1px solid #808080;margin-bottom:20px;padding:0 15px}
+.find_id span.hint{display:block;margin:-10px 0 20px}
+.find_id button{width:400px;height:40px;background:#166936;color:#fff;border:0;display:block;margin:auto;cursor:pointer}
+button:hover{background:#d0112b}
+
+/*find_id_ok.php*/
+.find_content{background:rgba(255,255,255,0.8);padding:50px 0;width:1200px;box-sizing:border-box;margin:auto;overflow:auto;text-align:center}
+.find_content p.t{font-size:18px;margin-bottom:20px}
+.find_content div{margin-top:30px}
+.find_content div a{display:inline-block;width:100px;border:1px solid #166936;line-height:30px;margin:0 10px}
+.find_content div a:hover{background:#166936;color:#fff}
+
+/*find_pw.php*/
+.find_pw ul{overflow:hidden;width:500px;margin:0 auto 30px}
+.find_pw li{float:left;width:230px;text-align:center;line-height:30px;box-sizing:border-box;margin:0 5px}
+.find_pw li a{display:block}
+.currently{border-bottom:3px solid #d0112b;color:#d0112b}
+.find_pw li:hover{color:#d0112b;}
+.find_pw form{width:500px;margin:auto}
+.find_pw input{display:block;width:500px;height:50px;background:rgba(0,0,0,0);border:1px solid #808080;margin-bottom:20px;padding:0 15px;box-sizing:border-box}
+.find_pw_email{width:500px;margin:auto;display:none}
+.find_pw_email span.text{display:block;margin-bottom:10px}
+.find_pw_email .input_text_email{width:239px;display:inline-block}
+.find_pw_email select{width:500px;height:50px;margin-top:-10px;background:rgba(0,0,0,0)}
+.find_pw button{width:500px;height:40px;background:#166936;color:#fff;border:0;display:block;margin:40px auto 0;cursor:pointer}
+button:hover{background:#d0112b}
+
+.find_content form {margin-top:50px}
+.find_content form label{font-size:15px;width:120px;display:inline-block;text-align:left}
+.find_content form input{height:40px;width:300px;background:rgba(0,0,0,0);border:1px solid #808080;margin-bottom:20px}
+.find_content form button{display:inline-block;width:100px;border:1px solid #166936;line-height:40px;margin:20px 10px 0;cursor:pointer}
+.find_content form button:hover{background:#166936;color:#fff}

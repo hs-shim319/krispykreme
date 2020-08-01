@@ -1,0 +1,32 @@
+.title{background:url(../images/store_title_bg.jpg) center;margin-bottom:50px}
+.store_con{width:1200px;margin:auto;overflow:hidden}
+.store_list{width:270px;margin:0 15px 50px;line-height:30px;float:left}
+.store_list a{display:block}
+.store_list a:hover{opacity:0.6}
+.store_list img{margin-bottom:20px}
+.store_list .store_name{font-weight:bold;font-size:18px}
+.hotnow{color:#d0112b;background:url(../images/ico_clock.png) no-repeat center left;padding-left:20px;font-weight:bold}
+.movie{color:#166936;background:url(../images/ico_movie.png) no-repeat center left;padding-left:20px;font-weight:bold}
+.store_num{margin-bottom: 20px}
+
+.con{width:1200px;margin:auto}
+.store_select a{display:inline-block;border:1px solid #e0e0e0;width:50px;line-height:30px;text-align:center;margin-right:7px}
+.store_select a:hover{border:1px solid #d0112b;color:#d0112b}
+.store_select form{margin-bottom:50px}
+span.txt{display:inline-block;width:100px;line-height:50px}
+.store_select form button{width:1200px;border:1px solid #a0a0a0;line-height:50px;display:block;background:#fff;cursor:pointer;margin-top:10px}
+.store_select form button:hover{color:#d0112b;border-color:#d0112b}
+.store_select input[type="text"]{height: 40px;border:1px solid #e0e0e0;width:1090px;box-sizing:border-box}
+.store_select p.checkbox{line-height:50px;padding-left:100px}
+.store_select p.checkbox label{margin-left:5px}
+
+.map_wrap{width:100%;height:100%;background:rgba(0,0,0,0.6);position:fixed;top:0;z-index:5;display:none}
+.store_detail{width:1000px;height:200px;background:#fff;position:fixed;top:100px;z-index:6;padding:50px;box-sizing:border-box;display:none;left:50%;margin-left:-500px;line-height:30px}
+.store_detail a{position:absolute;top:30px;right:30px;;background:url(../images/exit.png) no-repeat;width:30px;text-indent:-9999px}
+.map{width:1000px;height:350px;position:fixed;top:300px;z-index:6;display:none;left:50%;margin-left:-500px}
+.bold{font-weight:bold}
+
+.con>a.research_btn{width:1200px;border:1px solid #a0a0a0;line-height:50px;text-align: center; display:block;background:#fff;cursor:pointer;margin-bottom:20px}
+.con>a.research_btn:hover{color:#d0112b;border-color:#d0112b}
+.con>a.allstore_btn{width:1200px;border:1px solid #a0a0a0;line-height:50px;text-align: center; display:block;background:#fff;cursor:pointer;margin-bottom:50px}
+.con>a.allstore_btn:hover{color:#d0112b;border-color:#d0112b}

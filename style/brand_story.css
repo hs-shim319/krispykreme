@@ -1,0 +1,60 @@
+.title{background:url(../images/brandstory_title_bg.jpg) center}
+.title_txt{padding-top:230px;font-weight:normal;color:#fff;text-align:center;line-height:40px}
+.title span.line2{display:block}
+.title span.line2 span{font-size:20px;color:#ff6464;font-weight:bold}
+
+.tab_menu{border-bottom:1px solid #e0e0e0}
+.tab_menu ul{width:450px;margin:auto;overflow:hidden}
+.tab_menu li{float:left;width:150px;height:50px;line-height:50px;text-align:center}
+.tab_menu li:hover{color:#d0112b}
+.tab_menu li.currently{border-bottom:3px solid #d0112b;box-sizing: border-box;color:#d0112b}
+
+
+/*brandstory*/
+.brand_story{width:1200px;margin:auto;padding-bottom:150px}
+.brand_story .sub_title{height:250px;text-align: center;background:url(../images/brand_story_sub_bg.png) no-repeat right;padding-top:96px;box-sizing: border-box}
+.brand_story .sub_title h3{font-size:25px;margin-bottom:20px}
+.brand_story h4{color:#d0112b;font-size:20px}
+.brand_story h4 span{width:50px;height:50px;display:inline-block;text-align: center;background: #d0112b;line-height: 50px;border-radius:30px;color:#fff;margin-right:10px;font-size:30px}
+.bs_content{padding:25px 0;border-bottom:1px solid #e0e0e0}
+.bs_content_l{padding:25px 0}
+.bs_content p,.bs_content_l p{margin-left:65px;line-height:30px}
+.bs_content_l img{margin:auto;display: block;margin-top:25px;width:623px;height:103px}
+.bs_content span{display: block}
+
+/*history*/
+.history{width:1200px;margin:auto;padding-bottom:150px;display:none}
+.history .sub_title{height:250px;text-align: center;background:url(../images/brand_story_sub_bg.png) no-repeat right;padding-top:96px;box-sizing: border-box}
+.history .sub_title h3{font-size:25px;margin-bottom:20px}
+.history .his_content1{height:240px;background: url(../images/img_his01.jpg) no-repeat;padding:0 0 30px 260px;border-bottom:1px solid #e0e0e0}
+.history .his_content2{height:240px;background: url(../images/img_his02.jpg) no-repeat left 30px;padding:30px 0 30px 260px;border-bottom:1px solid #e0e0e0}
+.history .his_content3{height:240px;background: url(../images/img_his03.jpg) no-repeat left 30px;padding:30px 0 30px 260px;border-bottom:1px solid #e0e0e0}
+.history .his_content4{height:240px;background: url(../images/img_his04.jpg) no-repeat left 30px;padding:30px 0 30px 260px;border-bottom:1px solid #e0e0e0}
+.history .his_content5{height:240px;background: url(../images/img_his05.jpg) no-repeat left 30px;padding:30px 0 30px 260px;border-bottom:1px solid #e0e0e0}
+.history .his_content6{height:350px;background: url(../images/img_his06.jpg) no-repeat left 160px;padding:30px 0 0 20px}
+.history .his_content h4{font-size:30px;color:#d0112b;margin-bottom:15px}
+.history .his_content p.sub_ex{font-size:20px;color:#166936;margin-bottom:30px}
+.history .his_content p.his_ex{line-height:25px}
+.history .his_content span{display: block}
+.history .his_content6 ul{margin-left:300px}
+.history .his_content6 li{line-height:25px}
+.his_content{padding-bottom:150px}
+
+
+/*sharethelove*/
+.share_the_love{width:1200px;margin:auto;padding-bottom:150px;display:none}
+.share_the_love .sub_title{height:250px;text-align: center;background:url(../images/brand_story_sub_bg.png) no-repeat right;padding-top:96px;box-sizing: border-box}
+.share_the_love .sub_title h3{font-size:25px;margin-bottom:20px}
+.share_the_love h4{font-size:25px;color:#d0112b}
+.share_the_love .lv_content1 {background:url(../images/img_bg_lv01.png) no-repeat right;height:150px;padding:30px 300px 30px 0;border-bottom:1px solid #e0e0e0}
+.share_the_love .lv_content2 {background:url(../images/img_bg_lv02.png) no-repeat right;height:150px;padding:30px 300px 30px 0;border-bottom:1px solid #e0e0e0}
+.share_the_love .lv_content3 {background:url(../images/img_bg_lv03.png) no-repeat right;height:150px;padding:30px 300px 30px 0;border-bottom:1px solid #e0e0e0}
+.share_the_love .lv_content4 {background:url(../images/img_bg_lv04.png) no-repeat right;height:150px;padding:30px 300px 30px 0}
+.share_the_love .lv_content1 h4{background: url(../images/img_lv_blit01.png) no-repeat;padding-left:50px;line-height:50px;margin-bottom:20px}
+.share_the_love .lv_content2 h4{background: url(../images/img_lv_blit02.png) no-repeat;padding-left:50px;line-height:50px;margin-bottom:20px}
+.share_the_love .lv_content3 h4{background: url(../images/img_lv_blit03.png) no-repeat;padding-left:50px;line-height:50px;margin-bottom:20px}
+.share_the_love .lv_content4 h4{background: url(../images/img_lv_blit04.png) no-repeat;padding-left:50px;line-height:50px;margin-bottom:20px}
+.share_the_love .lv_content p{margin-left:50px;line-height: 30px}
+.share_the_love .lv_content span{display: block}
+
+.top_btn{margin-top:-50px}

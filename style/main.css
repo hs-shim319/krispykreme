@@ -1,0 +1,112 @@
+.content{position:relative}
+.main_banner{position:relative;width:100%;margin:auto;height:650px}
+.main_banner ul.banner_all li{height:650px;width:100%;position:absolute;top:0;display:none}
+
+li.banner_strawberryfilled div{width:100%;height:650px;background:url(../images/banner_original_filled.jpg) no-repeat center;text-indent:-9999px;display:none}
+li.banner_strawberryfilled .bimg{position:absolute;top:200px;left:50%;margin-left:-450px;display:none}
+li.banner_strawberryfilled p{position:absolute;width:180px;height:40px;top:480px;left:50%;margin-left:-350px;display:none}
+li.banner_strawberryfilled a{display:block;width:180px;height:40px;background:url(../images/banner_btn_white.png);text-indent:-9999px}
+
+li.banner_milkkreme div{height:650px;background:url(../images/banner_milk_kreme.jpg) no-repeat center;text-indent:-9999px;display:none}
+li.banner_milkkreme .bimg{position:absolute;top:120px;left:50%;margin-left:-190px;display:none}
+li.banner_milkkreme p{position:absolute;width:180px;height:40px;top:320px;left:50%;margin-left:-100px;display:none}
+
+li.banner_miniontop div{height:650px;background:url(../images/banner_miniontop.jpg) no-repeat center;text-indent:-9999px;display:none}
+li.banner_miniontop .bimg{position:absolute;top:120px;left:50%;margin-left:-170px;display:none}
+li.banner_miniontop p{position:absolute;width:180px;height:40px;top:450px;left:50%;margin-left:-80px;display:none}
+
+li.banner_wednesday div{height:650px;background:url(../images/banner_wednesday.jpg) no-repeat center;text-indent:-9999px;display:none}
+li.banner_wednesday .bimg{position:absolute;top:200px;left:50%;margin-left:-450px;display:none}
+li.banner_wednesday p{position:absolute;width:180px;height:40px;top:520px;left:50%;margin-left:-360px;display:none}
+
+.main_banner .btn_wrap{position:absolute;width:100%;top:380px}
+.btn_wrap .btn{width:1200px;margin:auto}
+.banner_prev{display:block;width:90px;height:90px;background:url(../images/banner_prev.png);text-indent:-9999px;float:left}
+.banner_next{display:block;width:90px;height:90px;background:url(../images/banner_next.png);text-indent:-9999px;float:right}
+.banner_prev:hover{background:url(../images/banner_prev_hover.png)}
+.banner_next:hover{background:url(../images/banner_next_hover.png)}
+.content .pager{position:absolute;width:100%;text-align:center;top:620px}
+.pager a{background:#222;display:inline-block;width:12px;height:12px;border-radius:10px;margin:0 5px;text-indent:-9999px}
+.pager a.pager_c{background:#d0112b}
+
+/*event*/
+.event{width:1200px;margin:100px auto}
+.event_list{overflow:hidden}
+/*.event h2{width:65px;height:20px;background:url(../images/menu_event.png);text-indent:-9999px;margin:0 auto 50px}*/
+.event h2{font-family:'Mukta', sans-serif;text-align:center;margin-bottom:50px}
+.event dd{margin-top:65px;font-size:12px}
+
+.event01,.event02{width:370px;height:400px;margin-right:45px;box-sizing:border-box;float:left;position:relative}
+.event03{width:370px;height:400px;box-sizing:border-box;float:left;position:relative}
+.event dl{background:rgba(0,0,0,0.5);position:relative;height:400px;padding:25px 20px;box-sizing:border-box;color:#fff;top:-100px;transition:top 0.2s;}
+.event span{display:block;margin-top:10px}
+.event_more{display:block;width:180px;;height:40px;line-height:40px;border:1px solid #166936;border-radius:25px;text-align:center;margin:30px auto 0;transition:all 0.3s}
+.event_more:hover{border:1px solid #d0112b;color:#d0112b}
+.event_list>div:hover dl{top:-400px}
+.event_list>div:hover dt{margin-top:125px}
+
+.dnc{background:url(../images/dncmenu_bg.jpg) center no-repeat;height:500px}
+.dnc ul{width:1200px;margin:auto;position:relative}
+.dnc .coffee{position:absolute;top:75px;left:120px}
+.dnc .coffee p{text-align:right;color:#fff;font-size:25px}
+.dnc .coffee p span{display:block}
+.dnc .coffee a{float:right;display:block;margin-top:25px;width:240px;line-height:45px;background:url(../images/dnc_more_hover.png) no-repeat 200px;border:1px solid #fff;border-radius:30px;padding-left:25px;box-sizing:border-box;color:#fff;transition:all 0.3s}
+.dnc .coffee a:hover{background:#fff url(../images/dnc_more_hover.png) no-repeat 200px;color:#d0112b;border:1px solid #d0112b}
+.coffee .line{display:block; width:179px;height:48px;background:url(../images/dnc_line_cnb.png) no-repeat;position:absolute;top:135px;left:249px}
+.dougnuts .line{display:block; width:92px;height:81px;background:url(../images/dnc_line_dougnuts.png) no-repeat;position:absolute;top:132px;left:-93px}
+.dnc .dougnuts{position:absolute;top:165px;left:885px}
+.dnc .dougnuts p{color:#fff;font-size:25px}
+.dnc .dougnuts p span{display:block}
+.dnc .dougnuts a{display:block;margin-top:25px;width:240px;line-height:45px;background:url(../images/dnc_more_hover.png) no-repeat 200px;border:1px solid #fff;border-radius:30px;padding-left:25px;box-sizing:border-box;color:#fff;transition:all 0.3s}
+.dnc .dougnuts a:hover{background:#fff url(../images/dnc_more_hover.png) no-repeat 200px;color:#d0112b;border:1px solid #d0112b}
+.dom{width:1200px;margin:100px auto}
+.dom h2{font-family:'Mukta', sans-serif;text-align:center;margin-bottom:50px}
+.dom a{position:absolute;top:-9999px;left:-9999px}
+.dom ul{overflow:hidden}
+.dom li{float:left;position:relative;width:220px;height:250px;text-align:center;margin-right:25px}
+.dom li.originalfilled{margin-right:0}
+.dom li img{opacity:1;transition:opacity 0.2s}
+.dom li:hover img{opacity:0.6}
+.dom li:hover a{top:100px;left:50px;color:#d0112b;width:110px;line-height:25px;border:1px solid #d0112b;border-radius:20px;font-size:12px;background:#fff}
+.dom li a:hover{color:#fff;border-color:#d0112b;background:#d0112b}
+
+.delivery{height:550px;background:url(../images/homeservice_bg.jpg) center top no-repeat;background-attachment:fixed;padding-top:50px;box-sizing:border-box}
+.delivery h2{width:297px;height:296px;background:url(../images/homeservice_logo.png) no-repeat;text-indent:-9999px;margin:0 auto 20px}
+.delivery p{line-height:45px;color:#fff;font-size:25px;text-align:center}
+.delivery span{display:block}
+.delivery a{display:block;width:400px;text-align:center;font-size:15px;line-height:45px;color:#fff;border:1px solid #fff;border-radius:25px;margin:20px auto 0;transition:all 0.3s}
+.delivery a:hover{color:#d0112b;background:#fff;border:1px solid #d0112b;font-weight: bold}
+
+.sns{width:1200px;margin:100px auto 0}
+.sns h2{font-family:'Mukta', sans-serif;text-align:center;margin-bottom:50px}
+.sns ul{width:560px;overflow:hidden;margin:auto}
+.sns_facebook a{display:block; width:120px;height:120px;background:url(../images/sns_facebook.png);text-indent:-9999px;float:left;margin-right:100px}
+.sns_twitter a{display:block; width:120px;height:120px;background:url(../images/sns_twitter.png);text-indent:-9999px;float:left;margin-right:100px}
+.sns_instagram a{display:block; width:120px;height:120px;background:url(../images/sns_instagram.png);text-indent:-9999px;float:left}
+
+.top_btn a{width:100px;height:50px;display:block;background:url(../images/top_btn.png);text-indent:-9999px;margin:auto}
+
+.footer_wrap{background:#fff3e2;padding:40px 0}
+#footer{width:1200px;margin:auto;position:relative}
+#footer ul{overflow:hidden}
+.footer_top li{float:left}
+.footer_term:after{content:"|";margin:10px}
+.footer_term span{font-weight:bold;color:#166936}
+
+.family_site{margin-top:-20px;float:right;position:relative}
+.family_site h3{float:left}
+.family_site h3 a{display:block;font-weight:normal;font-size:15px;width:200px;background:#fff url(../images/familysite_more.png) no-repeat 170px;border-radius:15px;border:1px solid #e0e0e0;line-height:30px;padding-left:15px;box-sizing:border-box;color:#a0a0a0}
+.btn_go{display:block;width:60px;line-height:30px;background:#166936;border-radius:15px;text-align:center;color:#fff;float:left;margin-left:10px}
+.family_site ul{padding:15px;box-sizing:border-box;line-height:25px;background:#fff;width:185px;border:1px solid #e0e0e0;position:absolute;top:-260px;left:8px}
+.family_site li:hover{font-weight:bold}
+.family_site ul{display:none} /*패밀리사이트 클릭*/
+
+.footer_txt{margin-top:30px;font-size:13px}
+.line1,.line2{overflow:hidden;line-height:30px}
+.line1 address,.line1 p,.line2 p{float:left}
+.after:after{content:"|";margin:10px}
+
+.copyright{font-weight:bold;line-height:30px}
+
+.pop_wrap{position:fixed}
+.pop_close a{display:block;margin:auto; margin-top:-60px;width:20px;height:20px;background:url(../images/pop_close.png) no-repeat center;text-indent:-9999px;z-index:1;position:relative}

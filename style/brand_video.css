@@ -1,0 +1,17 @@
+.title{height:450px;background:url(../images/brandvideo_title_bg.jpg) center;border-bottom:1px solid #e0e0e0;box-sizing: border-box;margin-top:-150px;padding-top:230px}
+.title h2{text-align:center;font-size:25px;font-weight:normal}
+.title p{text-align: center;margin-top:20px}
+
+.content{padding-bottom:150px}
+.tab{overflow: hidden;width:550px;margin:50px auto;font-size:18px}
+.tab li{width:250px;height:50px;border-radius:35px;line-height:50px;text-align: center;box-sizing: border-box;border:1px solid #166936;float:left}
+.tab a{display: block}
+.tab .left{margin-right:50px}
+.selected{background:#166936;color:#fff}
+
+.kkd_tv{text-align:center;margin-bottom:50px}
+.kkd_tv p{margin:25px 0;font-size:20px}
+.caption{width:800px;height:180px;overflow:scroll;padding:20px;box-sizing: border-box}
+.down_btn a{display:inline-block;width:135px;height:40px;line-height: 40px;text-align: center; border-radius:20px;box-sizing: border-box;border:1px solid #166936;font-size:15px;margin-top:25px}
+.down_btn .left{margin-right:25px}
+.top_btn{margin-top:-50px}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Nanum+Gothic&display=swap');
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd{margin:0;padding:0}
+ul,li{list-style:none}
+a{text-decoration:none;color:#222}
+address{font-style:normal}
+body,textarea,input{font-family:'Nanum Gothic', sans-serif,"맑은 고딕","돋움";font-size:15px}
+th{font-weight:normal}
+.hide_text{position:absolute;left:-9999px;top:-9999px}
+.spanblock{display:block}
+.bold{font-weight:bold}
+.redtxt{color:#d0112b}
+
+.h_skip{position:relative;z-index:1000}
+.h_skip>a{display:block;width:150px;background: #222;height:40px;text-align: center;line-height:40px;color:#fff;position: absolute;top:-50px;display:none}
+
+.header{position:fixed;width:100%;background:#fff;z-index:5;height:60px}
+h1{width:127px;height:69px;background:url(../images/logo.png);text-indent: -9999px;margin:-5px auto 0}
+h1 a{display:block;height:64px}
+
+.store_btn{width:40px;height:40px;background:url(../images/tablet_store2.png) no-repeat;text-indent:-9999px;position:absolute;top:10px;left:2px}
+.store a{display:block;height:50px}
+.menu_btn {position:relative; float:right; width:50px; height:50px;-webkit-box-sizing:border-box; box-sizing:border-box;margin:4px 5px 0 0}
+.menu_btn:before, 
+.menu_btn:after {display:block; content:""; position:absolute; left:50%; top:50%; width:30px; height:2px; background:#166936; -webkit-transform:translateX(-50%); transform:translateX(-50%); -webkit-transition:all 0.8s cubic-bezier(0.23, 1, 0.32, 1); transition:all 0.8s cubic-bezier(0.23, 1, 0.32, 1);}
+.menu_btn:before {margin-top:-8px}
+.menu_btn:after {margin-top:4px}
+.menu_btn.active:before {margin-top:-2px;height:2px;background:#d0112b;-webkit-transform:translateX(-50%) rotate(135deg) translateZ(0); transform:translateX(-50%) rotate(135deg) translateZ(0);}
+.menu_btn.active:after {margin-top:-2px;height:2px;background:#d0112b;-webkit-transform:translateX(-50%) rotate(-135deg) translateZ(0); transform:translateX(-50%) rotate(-135deg) translateZ(0);}
+
+.gnb h2{position:absolute;left:-9999px;top:-9999px}
+.gnb{position:fixed;width:0;right:0;top:0;height:100%;z-index:2;background:#fff}
+.gnb_list{width:100%;box-sizing:border-box}
+.gnb>ul{display:none}
+.gnb_list>li>a{display:block;line-height:40px;padding-left:20px;font-size:17px;border-bottom:1px solid #f0f0f0;background:#fff url(../images/arrow_red_line.png) no-repeat 96% center}
+li.gnb_home>a{background:none}
+.gnb_list>li.faq>a{background:none;font-size:13px;color:#808080;line-height:30px;border:none;margin-top:25px}
+.gnb_list>li.voc>a{background:none;font-size:13px;color:#808080;line-height:30px;border:none}
+.gnb_list li ul{background:#f0f0f0;padding:20px;line-height:35px;display:none}
+.gnb_list ul>li>a{display:block;width:100%}
+.gnb_list li ul>li>a:before{content:"· ";color:#d0112b}
+.gnb_bg{background:rgba(0,0,0,0.3);width:100%;height:100%;position:fixed;top:0;display:none;z-index:1}
+.session_menu{line-height:50px;padding-left:20px;margin:10px 0;overflow:hidden;font-size:12px}
+.gnb .session_menu li{float:left;margin-right:30px}
+.content{padding-top:60px}
+
+.top_btn{background:url(../images/tablet_top.png) no-repeat;width:50px;height:50px;text-indent:-9999px;position:fixed;right:10px;bottom:20px}
+.top_btn a{display:block;height:50px}
+.footer_wrap{background:#e0e0e0;margin-top:50px;padding:30px 4%;text-align:center}
+ul.sns{overflow:hidden;width:210px;margin:0 auto 30px}
+ul.sns li{float:left;margin:0 10px}
+ul.footer_term_wrap{overflow:hidden;margin-bottom:20px;line-height:30px}
+ul.footer_term_wrap li{display:inline-block}
+li.footer_term:after{content:"|";margin:0 10px}
+.font_b a{font-weight:bold;color:#d0112b}
+.footer_txt{line-height:30px}
+
+.banner_all li{position:relative;width:100%}
+.banner_all li img{width:100%}
+.banner_strawberryfilled a{width:20%;height:1%;display:block;position:absolute;top:68%;left:16%}
+
+.dom{background:#fff3e2;padding:50px 0 50px;margin-top:-5px}
+.dom_wrap{width:400px;margin:auto;position:relative}
+.dom h2{font-family:'Mukta', sans-serif;text-align:center;font-size:18px;margin-bottom:30px}
+.dom ul{overflow:hidden;background:#fff;width:250px;height:250px; margin:auto;border-radius:100%;position:relative}
+.dom li{position:absolute;width:100%;text-align:center;padding-top:2%}
+.dom li:nth-child(2),.dom li:nth-child(3),.dom li:nth-child(4),.dom li:nth-child(5){display:none}
+.dom li img{width:80%}
+.dom li p{text-align:center}
+.dom a.dom_prev{position:absolute;top:35%;left:0}
+.dom a.dom_next{position:absolute;top:35%;right:0}
+.dom a.dom_prev img,.dom a.dom_next img{width:80%}
+.dom a.dom_next img{float:right}
+.dom>div>a.dom_more{display:block;border:1.5px solid #d0112b;margin:30px auto 0;text-align:center;width:30%;line-height:30px;border-radius:20px;color:#d0112b;font-weight:bold;font-size:13px}
+
+.event{position:relative;padding-top:50px}
+.event h2{font-family:'Mukta', sans-serif;text-align:center;font-size:18px}
+.event_list{overflow:hidden;padding:20px 0;margin:0 2%}
+.event_list div{float:left;width:29.3%;margin:0 2%;box-shadow:0 0 10px 2px #e0e0e0;box-sizing:border-box}
+.event img{width:100%}
+.event_list dl{padding:20px;line-height:20px}
+.event_list dl dt,.event_list dl dd{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.event_list dt span{display:block}
+.event_list dd{font-size:13px;margin-top:10px}
+a.event_more{display:block;border:1.5px solid #d0112b;margin:auto;text-align:center;width:120px;line-height:30px;border-radius:20px;color:#d0112b;font-weight:bold;font-size:13px}
+
+@media screen and (max-width:767px) {    
+    .dom_wrap{width:320px}
+    .dom ul{width:220px;height:220px}
+    .dom a.dom_prev{top:30%}
+    .dom a.dom_next{top:30%}
+    .dom li p{font-size:13px}
+    .dom a.dom_prev img,.dom a.dom_next img{width:70%}
+    .dom>div>a.dom_more{width:120px}
+
+    .event{position:relative;padding-top:50px}
+    .event03{display:none}
+    .event_list div{width:46%;margin:0 2%}
+}
+
+
+@media screen and (max-width:420px) {
+    .event02{display:none}
+    .event_list{overflow:auto}
+    .event_list div{float:none;width:96%;margin:0 2%}
+    .event img{width:100%}    
+}
+
+
+

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Nanum+Gothic&display=swap');
+
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd{margin:0;padding:0}
+ul,li{list-style:none}
+a{text-decoration:none;color:#222}
+address{font-style:normal}
+body,textarea,input{font-family:'Nanum Gothic', sans-serif,"맑은 고딕","돋움";font-size:15px}
+table,th,td{border:0}
+th{font-weight:normal}
+.hide_text{position:absolute;left:-9999px;top:-9999px}
+.spanblock{display:block}
+.bold{font-weight:bold}
+.redtxt{color:#d0112b}
+table{border-spacing:0;border:0}
+.h_skip{position:relative;z-index:1000}
+.h_skip>a{display:block;width:150px;background:#222;height:40px;text-align: center;line-height:40px;color:#fff;position: absolute;top:-50px;display:none}
+
+.header{position:fixed;width:100%;background:#fff;z-index:5;height:60px;border-bottom:1px solid #e0e0e0;top:0}
+.menu_btn {position:relative; float:right; width:50px; height:50px;-webkit-box-sizing:border-box; box-sizing:border-box;margin:4px 5px 0 0}
+.menu_btn:before, 
+.menu_btn:after {display:block; content:""; position:absolute; left:50%; top:50%; width:30px; height:2px; background:#222; -webkit-transform:translateX(-50%); transform:translateX(-50%); -webkit-transition:all 0.8s cubic-bezier(0.23, 1, 0.32, 1); transition:all 0.8s cubic-bezier(0.23, 1, 0.32, 1);}
+.menu_btn:before {margin-top:-8px}
+.menu_btn:after {margin-top:4px}
+.menu_btn.active:before {margin-top:-2px;height:2px;background:#d0112b;-webkit-transform:translateX(-50%) rotate(135deg) translateZ(0); transform:translateX(-50%) rotate(135deg) translateZ(0);}
+.menu_btn.active:after {margin-top:-2px;height:2px;background:#d0112b;-webkit-transform:translateX(-50%) rotate(-135deg) translateZ(0); transform:translateX(-50%) rotate(-135deg) translateZ(0);}
+
+.gnb h2{position:absolute;left:-9999px;top:-9999px}
+.gnb{position:fixed;width:0;right:0;top:0;height:100%;z-index:2;background:#fff}
+.gnb_list{width:100%;box-sizing:border-box}
+.gnb>ul{display:none}
+.gnb_list>li>a{display:block;line-height:40px;padding-left:20px;font-size:17px;border-bottom:1px solid #f0f0f0;background:#fff url(../images/arrow_red_line.png) no-repeat 96% center}
+li.gnb_home>a{background:none}
+.gnb_list>li.faq>a{background:none;font-size:13px;color:#808080;line-height:30px;border:none;margin-top:25px}
+.gnb_list>li.voc>a{background:none;font-size:13px;color:#808080;line-height:30px;border:none}
+.gnb_list li ul{background:#f0f0f0;padding:20px;line-height:35px;display:none}
+.gnb_list ul>li>a{display:block;width:100%}
+.gnb_list li ul>li>a:before{content:"· ";color:#d0112b}
+.gnb_bg{background:rgba(0,0,0,0.3);width:100%;height:100%;position:fixed;top:0;display:none;z-index:1}
+h1{position:absolute;left:-9999px;top:-9999px}
+.back_btn{width:40px;height:40px;background:url(../images/tablet_back.png) no-repeat;text-indent: -9999px;position:absolute;left:10px;top:10px}
+.title{line-height:60px;text-align:center;font-size:18px}
+.session_menu{line-height:50px;padding-left:20px;margin:10px 0;overflow:hidden;font-size:12px}
+.gnb .session_menu li{float:left;margin-right:20px}
+
+section.location_bar{width:100%;text-align:center;line-height:50px;position:absolute;background:#fff;top:60px;z-index:4}
+.location_bar p{background:url(../images/arrow_red.png) no-repeat 98% center}
+.location_bar p,.location_bar li{border-bottom:1px solid #e0e0e0}
+.location_bar ul{background:#f0f0f0;display:none}
+.location_bar span.currently a{color:#d0112b;font-weight:bold}
+.location_bar a{display:block;height:50px}
+
+.top_btn{background:url(../images/tablet_top.png) no-repeat;width:50px;height:50px;text-indent:-9999px;position:fixed;right:10px;bottom:20px}
+.top_btn a{display:block;height:50px}
+.footer_wrap{background:#e0e0e0;padding:30px 4%;text-align:center;color:#5a5a5a;font-size:13px}
+.footer_wrap a{color:#5a5a5a;font-size:13px}
+ul.sns{overflow:hidden;width:210px;margin:0 auto 30px}
+ul.sns li{float:left;margin:0 10px}
+ul.footer_term_wrap{overflow:hidden;margin-bottom:20px;line-height:23px}
+ul.footer_term_wrap li{display:inline-block}
+li.footer_term:after{content:"|";margin:0 10px}
+.font_b a{font-weight:bold;color:#d0112b}
+.footer_txt{line-height:23px}
+
+

@@ -1,0 +1,11 @@
+.title{background:url(../images/brandproduct_title_bg.jpg) center}
+
+.mug{width:1200px;margin:auto;padding:50px 0 250px}
+.mug h3{font-weight:normal;font-size:20px;text-align: center;margin-bottom:50px}
+.mug ul{overflow:hidden;width:870px;margin:auto}
+.mug li{float:left}
+.top_btn{margin-top:-50px}
+.mug span.img_brd{display: block;width:200px;height:200px;border:2px solid #e0e0e0;border-radius:150px;text-align: center;padding-top:47.5px;box-sizing: border-box}
+.mug p{text-align: center;line-height: 25px;margin-top:15px}
+.mug span.price{display:block;color:#d0112b}
+.mug li.center{margin:0 135px}

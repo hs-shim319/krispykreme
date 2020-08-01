@@ -1,0 +1,90 @@
+.title{background:url(../images/mypage_title_bg.jpg) center}
+
+.mp_tab{border-bottom:1px solid #e0e0e0}
+.mp_tab ul{width:600px;margin:auto;overflow:hidden}
+.mp_tab li{float:left;width:150px;height:50px;line-height:50px;text-align:center}
+.mp_tab li:hover{color:#d0112b}
+.mp_tab li.currently{border-bottom:3px solid #d0112b;box-sizing: border-box;color:#d0112b}
+
+h3.mptitle{text-align:center;padding-top:50px;margin-bottom:15px;font-weight:normal;font-size:25px}
+/*table tr.list_title{background:#fff3e2}*/
+table .list_title td{font-weight:bold;border-top:1px solid #a0a0a0;border-bottom:1px solid #a0a0a0}
+table .list_sub td{border-bottom:1px solid #e0e0e0}
+
+.sub_title{text-align:center;margin-bottom:30px}
+.coupon_table{width:1200px;margin:auto}
+.coupon_table table{width:1200px;margin:auto;margin:15px 0}
+.coupon_table table td{text-align:center;height:50px}
+.coupon_table table .td1,.coupon_table table .td4{width:100px}
+.coupon_table table .td2{width:600px}
+.coupon_table table .td3{width:200px}
+
+.coupon dt{line-height:30px;margin-top:20px}
+.coupon dt:before{content:"○ ";color:#d0112b}
+.coupon dd{line-height:25px;font-size:13px}
+.coupon dd:before{content:"- "}
+
+h3.qnatitle{text-align:center;margin:50px 0 15px;font-weight:normal;font-size:25px}
+.sub_title{text-align:center;margin-bottom:30px}
+.qna_table{width:1200px;margin:auto}
+.qna_table table{width:1200px;margin:auto;margin:15px 0}
+.qna_table table td{text-align:center;height:50px}
+.qna_table table .td1,.qna_table table .td4{width:100px}
+.qna_table table .td2{width:100px}
+.qna_table table .td3{width:500px}
+.qna_table a:hover{color:#d0112b;font-weight:bold}
+
+form{width:1200px;margin:auto}
+fieldset{border:0;margin:0;padding:0}
+legend.t{font-weight:bold;width:500px;font-size:16px;margin-bottom:20px}
+legend.b{font-weight:bold;font-size:16px;margin-bottom:20px}
+.text{display:inline-block;margin-bottom:5px;width:200px}
+.input_text{height:50px;width:500px;background:rgba(0,0,0,0);border:1px solid #808080;padding-left:10px;box-sizing:border-box;margin-top:5px}
+input.input_text_email{height:50px;width:239px;background:rgba(0,0,0,0);border:1px solid #808080;padding-left:10px;box-sizing:border-box;margin-bottom:15px}
+.input_text_btn{height:50px;width:385px;background:rgba(0,0,0,0);border:1px solid #808080;padding-left:10px;box-sizing:border-box;margin-bottom:15px}
+.form_btn{border:1px solid #808080;width:100px;line-height:50px;display:inline-block;box-sizing:border-box;text-align:center;box-sizing:border-box;margin-left:10px}
+.form_btn:hover{border:1px solid #166936;background:#166936;color:#fff}
+.hint{margin-left:20px;font-size:12px;color:#4e4e4e}
+.right_hint{font-size:12px;color:#4e4e4e}
+.red_txt{color:#d0112b;font-size:12px}
+.postalcode{height:50px;width:385px;background:rgba(0,0,0,0);border:1px solid #808080;padding-left:10px;box-sizing:border-box}
+.addr_input_text{height:50px;width:500px;background:rgba(0,0,0,0);border:1px solid #808080;padding-left:10px;box-sizing:border-box;margin-left:-5px;margin-top:5px}
+.addr{margin-bottom:15px}
+select.select_email{width:480px;height:50px;border:1px solid #808080;background:rgba(0,0,0,0);padding-left:10px;}
+.birth_txt{margin-left:460px}
+.form_bottom{display:block;padding-top:35px;border-top:1px solid #a0a0a0}
+select{width:500px;height:50px;float:right;border:1px solid #808080;background:rgba(0,0,0,0);padding-left:10px}
+.form_wrap p{line-height:50px;border-bottom:1px solid #c8c8c8;padding:10px 0}
+.form_bottom .input_text{float:right}
+
+.btn{text-align:center;margin-top:30px}
+.submit_btn{width:60px;height:30px;font-size:15px;color:#fff;background:#166936;border:0;margin-right:20px;cursor:pointer}
+.cancel_btn{width:60px;height:30px;font-size:15px;background:#a0a0a0;border:0;cursor:pointer}
+
+.delete_wrap h3{text-align:center;margin:50px 0 15px;font-weight:normal;font-size:25px}
+.delete_wrap>ul{width:1200px;margin:50px auto 10px;line-height:30px}
+.delete_wrap>ul>li:before{content:"· ";color:#d0112b}
+.pwconfirm{width:1200px;margin:auto;padding:50px;box-sizing: border-box;text-align:center;border:1px solid #e0e0e0}
+.pwconfirm form{width:1200px;margin:auto;margin-left:-50px}
+.pwconfirm ul{line-height:30px;margin-bottom:30px}
+.pwconfirm input{width:500px;height:50px;padding:0 15px;display:block;margin:auto}
+.pwconfirm button{display:block;margin:20px auto 0}
+
+.myqna{position:relative}
+.myqna div.myqna_tit{border-bottom:1px solid #e0e0e0}
+.myqna_tit p{position:relative;width:1200px;margin:50px auto;text-align:center;font-size:20px}
+.myqna_tit span{position:absolute;right:0;font-size:12px;line-height:30px}
+.myqna_con{width:1200px;margin:auto;padding-top:50px}
+.myqna a{position:absolute;font-size:15px;color:#166936;font-weight:bold;top:0}
+.myqna a:hover{color:#d0112b;font-weight:bold}
+
+.form1{border-bottom:1px solid #e0e0e0;margin-bottom:20px}
+.myqna_con{width:1200px;margin:auto}
+.myqna_con p{margin-bottom:30px}
+.question_content{line-height:30px;resize:none;width:1000px;padding:20px;border:0;margin-left:200px}
+span.txt{width:200px;display:inline-block}
+.btn_div{text-align:right;margin-top:20px}
+.submit_btn{display:inline-block;width:50px;height:30px;background:#166936;color:#fff;border:0;margin-right:10px;cursor:pointer}
+.cancel_btn{display:inline-block;width:50px;height:30px;background:#e0e0e0;border:0;cursor:pointer}
+.rel{position:relative}
+.rel .txt{position:absolute;top:10px;width:200px}

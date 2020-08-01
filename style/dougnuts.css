@@ -1,0 +1,31 @@
+.title{background:url(../images/dougnuts_title_bg.jpg) center}
+
+.dougnuts_tab{border-bottom:1px solid #e0e0e0}
+.dougnuts_tab ul{width:600px;margin:auto;overflow:hidden}
+.dougnuts_tab li{float:left;width:150px;height:50px;line-height:50px;text-align:center}
+.dougnuts_tab li:hover{color:#d0112b}
+.dougnuts_tab li.currently{border-bottom:3px solid #d0112b;box-sizing: border-box;color:#d0112b}
+
+.dougnuts_menu{width:1200px;margin:auto}
+.dougnuts_menu ul{overflow:hidden}
+.dougnuts_menu li{float:left;margin:0 35px;text-align:center;margin:50px 35px 0}
+.dougnuts_menu li img{width:200px;height:200px;transition:0.2s}
+.dougnuts_menu li span.brd{display:block;width:230px;height:230px;text-align:center;box-sizing: border-box;border:2px solid #e0e0e0;border-radius:120px;overflow:hidden;padding-top:15px;margin-bottom:20px}
+.dougnuts_menu li span.eng{display:block;color:#d0112b;margin-top:5px;font-size:13px}
+.dougnuts_menu li:hover span{border-color:#d0112b}
+.dougnuts_menu li:hover img{width:210px;height:210px}
+
+.dougnuts span.brd{display:block;width:230px;height:230px;box-sizing:border-box;border:2px solid #d0112b;border-radius:120px;overflow:hidden;padding:15px;position:absolute;top:40px;left:100px}
+
+.dougnuts{width:1200px;margin:50px auto 0;padding-left:450px;box-sizing:border-box;position:relative}
+.dougnuts h3{font-weight:normal;font-size:25px;margin-bottom:10px}
+.dougnuts .eng{font-size:20px;margin-bottom:43px;color:#d0112b}
+.dougnuts .price{margin-bottom:43px;line-height:27px}
+.dougnuts .price_icon{display:inline-block; width:27px;height:27px;background:url(../images/price.png);text-indent:-9999px;margin-right:10px}
+.dougnuts dt{margin-bottom:20px}
+table,th,td{border:0}
+.dougnuts table{width:750px}
+.dougnuts table th{background:#e0e0e0;line-height:50px;text-align:center}
+.dougnuts table td{border-bottom:1px solid #e0e0e0;line-height:50px;text-align:center}
+
+.content a.back_btn{display:block;width:200px;margin:50px auto 0;line-height:50px;height:50px;background:#166936;color:#fff;text-align:center}

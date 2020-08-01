@@ -1,0 +1,18 @@
+.title{background:url(../images/newmenu2_title_bg.jpg) center}
+
+.nm_list{width:1200px;margin:50px auto;overflow:hidden}
+.nm_list li{width:270px;height:300px;border:1px solid #f0f0f0;box-sizing: border-box;float:left;margin:0 15px 50px ;text-align:center;line-height:25px}
+.nm_list li span.img{width:270px;height:220px;display:block;overflow:hidden;margin-bottom:15px}
+.nm_list li img{width:270px;transition:0.2s}
+.nm_list li span.txt{display:block}
+.nm_list li:hover img{width:280px;margin-left:-5px}
+
+.newmenu_con{position:relative}
+.newmenu_con div.con_tit{border-bottom:1px solid #e0e0e0}
+.newmenu_con div.con_con{width:1200px;margin:auto;padding-top:50px}
+.newmenu_con p{position:relative;width:1200px;margin:50px auto;text-align:center;font-size:20px}
+.newmenu_con span{position:absolute;right:0;font-size:12px;line-height:30px}
+.newmenu_con img{display:block;margin:50px auto}
+
+.newmenu_con a{position:absolute;font-size:15px;color:#166936;font-weight:bold;top:0}
+.newmenu_con a:hover{color:#d0112b;font-weight:bold}

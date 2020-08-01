@@ -1,0 +1,31 @@
+.title{background:url(../images/faq_title_bg.jpg) center}
+.faq_tab{border-bottom:1px solid #e0e0e0;margin-bottom:50px}
+.faq_tab ul{width:300px;margin:auto;overflow:hidden}
+.faq_tab li{float:left;width:150px;height:50px;line-height:50px;text-align:center}
+.faq_tab li:hover{color:#d0112b}
+.faq_tab li.currently{border-bottom:3px solid #d0112b;box-sizing: border-box;color:#d0112b}
+.form1,.form2{border-bottom:1px solid #e0e0e0;margin-bottom:10px}
+.question{width:1200px;margin:auto}
+.question p{margin-bottom:30px}
+p.hint{font-size:13px;color:#808080;text-align:center;margin-top:-10px}
+.question h3{margin:30px 0;text-align:center}
+.question dl{overflow:hidden;margin:30px 0}
+.question dt, dd{float:left}
+.question dd{margin-right:30px}
+.question dd input{margin-right:10px}
+.selectp{float:left;width:600px}
+.sel1{width:350px;height:50px;padding:0 15px;border:1px solid #a0a0a0}
+.sel4{width:80px;margin-left:10px;height:50px}
+.question_content{line-height:30px;resize:none;width:1000px;height:500px;overflow-y:scroll;padding:20px;border:1px solid #a0a0a0;margin-left:200px;box-sizing:border-box}
+.apply{line-height:30px;overflow-y:scroll;resize:none;width:1200px;height:200px;padding:20px;border:1px solid #a0a0a0}
+span.txt{width:200px;display:inline-block}
+span.txt2{width:200px;display:inline-block;text-align:center}
+.width1000{width:1000px;box-sizing: border-box; height:50px;border:1px solid #a0a0a0;padding:0 15px}
+.width500{width:800px;height:50px;border:1px solid #a0a0a0;padding:0 15px}
+.apply_radio{text-align:center;margin:20px 0}
+.btn_div{text-align:center;margin-top:20px}
+.submit_btn{display:inline-block;width:100px;height:40px;background:#166936;color:#fff;border:0;margin-right:20px;cursor:pointer}
+.cancel_btn{display:inline-block;width:100px;height:40px;background:#e0e0e0;border:0;cursor:pointer}
+.rel{position:relative}
+.rel .txt{position:absolute;top:10px;width:200px}
+

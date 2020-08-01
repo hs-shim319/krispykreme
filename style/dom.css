@@ -1,0 +1,72 @@
+.title{background:url(../images/dom_title_bg.jpg) center}
+
+.dom_menu{width:1200px;padding:50px 0;margin:auto;border-bottom:1px solid #e0e0e0;text-align:center}
+.dom_menu h3{font-size:25px;margin-bottom:50px;font-weight:normal}
+.dom_menu ul{height:200px}
+.dom_menu li{float:left;margin-right:75px;position:relative}
+.dom_menu li.dom_original{margin-right:0}
+.dom_menu li img{width:150px;height:150px;transition:all 0.2s}
+.dom_menu li>span{display:block;display:table-cell;width:180px;height:180px;border:2px solid #e0e0e0;border-radius:100px;vertical-align:middle;box-sizing:border-box;transition:border 0.2s;overflow:hidden}
+.dom_menu li a{display:block;width:180px;height:200px;position:absolute;padding-top:190px;box-sizing:border-box;top:0}
+.dom_menu li>span.selected{border:2px solid #d0112b}
+.dom_menu>ul>li:hover span{border:2px solid #d0112b}
+.dom_menu>ul>li:hover img{width:160px;height:160px}
+
+.cookie{width:1200px;margin:50px auto 150px;background:url(../images/dom_cookie_l.png) no-repeat 75px top;padding-left:450px;box-sizing:border-box}
+.cookie h3{font-weight:normal;font-size:25px;margin-bottom:10px}
+.cookie .eng{font-size:20px;margin-bottom:43px;color:#d0112b}
+.cookie .price{margin-bottom:43px;line-height:27px}
+.cookie .price_icon{display:inline-block; width:27px;height:27px;background:url(../images/price.png);text-indent:-9999px;margin-right:10px}
+.cookie dt{margin-bottom:20px}
+table,th,td{border:0}
+.cookie table{width:750px}
+.cookie table th{background:#e0e0e0;line-height:50px;text-align:center}
+.cookie table td{border-bottom:1px solid #e0e0e0;line-height:50px;text-align:center}
+
+.choco{width:1200px;margin:50px auto 150px;background:url(../images/dom_choco_l.png) no-repeat 75px top;padding-left:450px;box-sizing:border-box;display:none}
+.choco h3{font-weight:normal;font-size:25px;margin-bottom:10px}
+.choco .eng{font-size:20px;margin-bottom:43px;color:#d0112b}
+.choco .price{margin-bottom:43px;line-height:27px}
+.choco .price_icon{display:inline-block; width:27px;height:27px;background:url(../images/price.png);text-indent:-9999px;margin-right:10px}
+.choco dt{margin-bottom:20px}
+table,th,td{border:0}
+.choco table{width:750px}
+.choco table th{background:#e0e0e0;line-height:50px;text-align:center}
+.choco table td{border-bottom:1px solid #e0e0e0;line-height:50px;text-align:center}
+
+.strawberry{width:1200px;margin:50px auto 150px;background:url(../images/dom_strawberry_l.png) no-repeat 75px top;padding-left:450px;box-sizing:border-box;display:none}
+.strawberry h3{font-weight:normal;font-size:25px;margin-bottom:10px}
+.strawberry .eng{font-size:20px;margin-bottom:43px;color:#d0112b}
+.strawberry .price{margin-bottom:43px;line-height:27px}
+.strawberry .price_icon{display:inline-block; width:27px;height:27px;background:url(../images/price.png);text-indent:-9999px;margin-right:10px}
+.strawberry dt{margin-bottom:20px}
+table,th,td{border:0}
+.strawberry table{width:750px}
+.strawberry table th{background:#e0e0e0;line-height:50px;text-align:center}
+.strawberry table td{border-bottom:1px solid #e0e0e0;line-height:50px;text-align:center}
+
+.caramel{width:1200px;margin:50px auto 150px;background:url(../images/dom_caramel_l.png) no-repeat 75px top;padding-left:450px;box-sizing:border-box;display:none}
+.caramel h3{font-weight:normal;font-size:25px;margin-bottom:10px}
+.caramel .eng{font-size:20px;margin-bottom:43px;color:#d0112b}
+.caramel .price{margin-bottom:43px;line-height:27px}
+.caramel .price_icon{display:inline-block; width:27px;height:27px;background:url(../images/price.png);text-indent:-9999px;margin-right:10px}
+.caramel dt{margin-bottom:20px}
+table,th,td{border:0}
+.caramel table{width:750px}
+.caramel table th{background:#e0e0e0;line-height:50px;text-align:center}
+.caramel table td{border-bottom:1px solid #e0e0e0;line-height:50px;text-align:center}
+
+.original{width:1200px;margin:50px auto 150px;background:url(../images/dom_original_filled_l.png) no-repeat 75px top;padding-left:450px;box-sizing:border-box;display:none}
+.original h3{font-weight:normal;font-size:25px;margin-bottom:10px}
+.original .eng{font-size:20px;margin-bottom:43px;color:#d0112b}
+.original .price{margin-bottom:43px;line-height:27px}
+.original .price_icon{display:inline-block; width:27px;height:27px;background:url(../images/price.png);text-indent:-9999px;margin-right:10px}
+.original dt{margin-bottom:20px}
+table,th,td{border:0}
+.original table{width:750px}
+.original table th{background:#e0e0e0;line-height:50px;text-align:center}
+.original table td{border-bottom:1px solid #e0e0e0;line-height:50px;text-align:center}
+
+.sns_upload{margin-left:-270px;margin-top:20px}
+.sns_upload .sns_facebook{display:inline-block;width:40px;height:40px;background:url(../images/sns_facebook_s.png);text-indent:-9999px;margin-right:20px}
+.sns_upload .sns_twitter{display:inline-block;width:40px;height:40px;background:url(../images/sns_twitter_s.png);text-indent:-9999px}

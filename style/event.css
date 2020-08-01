@@ -1,0 +1,49 @@
+.title{background:url(../images/event_title_bg.jpg) center}
+.event_tab{border-bottom:1px solid #e0e0e0}
+.event_tab ul{width:450px;margin:auto;overflow:hidden}
+.event_tab li{float:left;width:150px;height:50px;line-height:50px;text-align:center}
+.event_tab li:hover{color:#d0112b}
+.event_tab li.currently{border-bottom:3px solid #d0112b;box-sizing: border-box;color:#d0112b}
+
+.event_list{width:1200px;margin:50px auto;overflow:hidden}
+.event_list li{width:270px;height:300px;border:1px solid #f0f0f0;box-sizing: border-box;float:left;margin:0 15px 50px ;text-align:center;line-height:25px}
+.event_list li span.img{width:270px;height:220px;display:block;overflow:hidden;margin-bottom:15px}
+.event_list li img{width:270px;transition:0.2s}
+.event_list li span.txt{display:block}
+.event_list li:hover img{width:280px;margin-left:-5px}
+    
+.ev_con{position:relative}
+.ev_con div.con_tit{border-bottom:1px solid #e0e0e0}
+.ev_con div.con_con{width:1200px;margin:auto;padding-top:50px}
+.ev_con p{position:relative;width:1200px;margin:50px auto;text-align:center;font-size:20px}
+.ev_con span{position:absolute;right:0;font-size:12px;line-height:30px}
+.ev_con img{display:block;margin:50px auto}
+.ev_con a{position:absolute;font-size:15px;color:#166936;font-weight:bold;top:0}
+.ev_con a:hover{color:#d0112b;font-weight:bold}
+
+.event_finish{width:1200px;margin:50px auto;overflow:hidden}
+.event_finish li{width:270px;height:300px;border:1px solid #f0f0f0;box-sizing: border-box;float:left;margin:0 15px 50px ;text-align:center;line-height:25px}
+.event_finish li span.img{width:270px;height:220px;display:block;overflow:hidden;margin-bottom:15px;opacity:0.5}
+.event_finish li img{width:270px;transition:0.2s}
+.event_finish li span.txt{display:block}
+
+.winner_list{width:1200px;margin:50px auto 0}
+.winner_list p{margin-bottom:15px}
+.winner_list table{width:1200px;margin:20px auto 0padding:0}
+.winner_list tr.list_title td{font-weight:bold;border-top:1px solid #a0a0a0;border-bottom:1px solid #a0a0a0;}
+.winner_list tr.list_con td{border-bottom:1px solid #e0e0e0}
+.winner_list table td{text-align:center;line-height:50px;margin:0;padding:0}
+.winner_list table td.t1{width:100px}
+.winner_list table td.t3{width:200px}
+.winner_list table a:hover{color:#d0112b;font-weight:bold}
+
+    
+.win_con{position:relative}
+.win_con div.con_tit{border-bottom:1px solid #e0e0e0}
+.win_con div.con_con{width:1200px;margin:auto;padding-top:50px}
+.win_con p{position:relative;width:1200px;margin:50px auto;text-align:center;font-size:20px}
+.win_con span.s1{position:absolute;right:0;top:-13px;font-size:12px;line-height:30px}
+.win_con span.s2{position:absolute;right:0;top:13px;font-size:12px;line-height:30px}
+.win_con img{display:block;margin:50px auto}
+.win_con a{position:absolute;font-size:15px;color:#166936;font-weight:bold;top:0}
+.win_con a:hover{color:#d0112b;font-weight:bold}
