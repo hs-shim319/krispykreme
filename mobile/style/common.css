@@ -37,7 +37,7 @@ li.gnb_home>a{background:none}
 .gnb_list li ul>li>a:before{content:"· ";color:#d0112b}
 .gnb_bg{background:rgba(0,0,0,0.3);width:100%;height:100%;position:fixed;top:0;display:none;z-index:1}
 h1{position:absolute;left:-9999px;top:-9999px}
-.back_btn{width:40px;height:40px;background:url(../images/tablet_back.png) no-repeat;text-indent: -9999px;position:absolute;left:10px;top:10px}
+.back_btn{width:40px;height:40px;background:url(../images/tablet_back.png) no-repeat;text-indent: -9999px;position:absolute;left:10px;top:10px;z-index:10}
 .title{line-height:60px;text-align:center;font-size:18px}
 .session_menu{line-height:50px;padding-left:20px;margin:10px 0;overflow:hidden;font-size:12px}
 .gnb .session_menu li{float:left;margin-right:20px}
