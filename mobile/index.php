@@ -55,7 +55,7 @@
         <div class="header_bottom_wrap">
         <div class="header_bottom">
             <h1><a href="index.php">크리스피크림도넛</a></h1>
-            <a href="#" class="store_btn">매장찾기</a>
+            <a href="find_store.php" class="store_btn">매장찾기</a>
             <nav class="gnb">
                 <h2>메인메뉴</h2>
                 <a href="#none" class="menu_btn"></a>

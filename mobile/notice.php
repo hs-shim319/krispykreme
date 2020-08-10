@@ -107,7 +107,7 @@
         </div>
         <div class="notice_con">
             <p><?php echo $array["content"];?></p>
-            <a href="#none" onclick="javascript:history.back()">list</a>    
+            <a href="#none" onclick="history.back();return false;">list</a>    
         </div>
     </main>
     

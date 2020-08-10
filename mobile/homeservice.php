@@ -100,7 +100,7 @@
         <p><a href="#none">홈 서비스</a></p>
            <ul>
               <li><span class="currently"><a href="#none">홈 서비스</a></span></li>
-              <li><a href="store.php">매장찾기</a></li>
+              <li><a href="find_store.php">매장찾기</a></li>
            </ul>
     </section>
     
