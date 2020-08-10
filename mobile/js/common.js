@@ -170,7 +170,3 @@ $(document).ready(function(){
        $(".share_the_love").show();  
     });
 });
-function go_back(){
-    history.back();
-    return false;
-}

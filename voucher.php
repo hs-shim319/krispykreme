@@ -3,6 +3,8 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <title>상품권 구입안내 | BRAND | 크리스피크림도넛</title>
     <link rel="stylesheet" type="text/css" href="style/common.css">
     <link rel="stylesheet" type="text/css" href="style/voucher.css">
@@ -126,7 +128,7 @@
             <li class="home">
             <a href="index.php">HOME</a></li>
             <li class="depth1">
-                <a href="#none">BRAND</a>
+                <a href="#none">BRAND<img src="images/step_down_w.png" alt="arrow_img"></a>
                 <ul class="depth1_menu">
                     <li><a href="newmenu_list.php">MENU</a></li>
                     <li><a href="homeservice.php">STORE</a></li>
@@ -136,7 +138,7 @@
                 </ul>
             </li>
             <li class="depth2"> 
-                <a href="#none">상품권 구입안내</a>
+                <a href="#none">상품권 구입안내<img src="images/step_down_w.png" alt="arrow_img"></a>
                 <ul class="depth2_menu">
                     <li><a href="dougnuts_theater.php">도넛극장</a></li>
                     <li><a href="brand_story.php">브랜드스토리</a></li>

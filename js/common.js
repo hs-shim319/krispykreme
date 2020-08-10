@@ -23,10 +23,8 @@ $(document).ready(function(){
         
     //locationbar
     $(".location_bar>ul>li:gt(0)").hover(function(){
-        $(this).children("a").css({background:'url(../images/step_up.png) no-repeat right'});
         $(this).children("ul").stop().slideDown(500);
     },function(){
-        $(this).children("a").css({background:'url(../images/step_down.png) no-repeat right'});
         $(this).children("ul").stop().slideUp(500);
     });//locationbar
     
@@ -43,12 +41,8 @@ $(document).ready(function(){
                 $(".tm_grade").css({border:'1px solid #222'});
             }); 
             //locationbar        
-            $(".location_bar>ul>li:gt(0)").children("a").css({background:'url(../images/step_down.png) no-repeat right'});
-            $(".location_bar>ul>li:gt(0)").hover(function(){
-                $(this).children("a").css({background:'url(../images/step_up.png) no-repeat right'});
-            },function(){
-                $(this).children("a").css({background:'url(../images/step_down.png) no-repeat right'});
-            });//locationbar
+            $(".location_bar>ul>li:gt(0) img").attr("src","images/step_down.png");
+            $(".location_bar .home,.location_bar .depth1").addClass("scroll_loca");
         }else{
             $(".header_bottom_wrap").removeClass("mh_scrolldown");
             $(".location_bar_bg").removeClass("lo_scrolldown");    
@@ -62,12 +56,8 @@ $(document).ready(function(){
                 $(".tm_grade").css({border:'1px solid #fff'});  
             });
             //locationbar
-            $(".location_bar>ul>li:gt(0)").children("a").css({background:'url(../images/step_down_w.png) no-repeat right'});
-            $(".location_bar>ul>li:gt(0)").hover(function(){
-                $(this).children("a").css({background:'url(../images/step_up_w.png) no-repeat right'});
-            },function(){
-                $(this).children("a").css({background:'url(../images/step_down_w.png) no-repeat right'});
-            });//locationbar
+            $(".location_bar>ul>li:gt(0) img").attr("src","images/step_down_w.png");
+            $(".location_bar .home,.location_bar .depth1").removeClass("scroll_loca");
         }
     }); 
     

@@ -14,7 +14,7 @@
 .homeservice_menu .best4 li p{margin-top:20px}
 .homeservice_menu .mored_bg{background:#e0e0e0;height:150px}
 .homeservice_menu .mored{width:1200px;margin:auto;background:url(../images/more_dozen.png) no-repeat center left;height:150px}
-.homeservice_menu .mored_bg p{width:1200px;margin:auto;margin-left:425px;font-size:20px;line-height:150px}
+.homeservice_menu .mored_bg p{width:1200px;margin:auto;padding-left:425px;font-size:20px;line-height:150px;box-sizing:border-box}
 .homeservice_menu .mored_bg a{font-size:15px;display:inline-block;width:200px;height:50px;text-align:center;line-height: 50px;border:1px solid #166936;box-sizing: border-box;border-radius:25px;margin-left:200px;transition:all 0.2s}
 .homeservice_menu .mored_bg a:hover{background:#fff;color:#d0112b;border-color:#d0112b;font-weight:bold}
 

@@ -10,6 +10,8 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <title>이벤트 | EVENT | 크리스피크림도넛</title>
     <link rel="stylesheet" type="text/css" href="style/common.css">
     <link rel="stylesheet" type="text/css" href="style/event.css">
@@ -132,7 +134,7 @@
         <ul>
             <li class="home"><a href="index.php">HOME</a></li>
             <li class="depth1">
-                <a href="#none">EVENT</a>
+                <a href="#none">EVENT<img src="images/step_down_w.png" alt="arrow_img"></a>
                 <ul class="depth1_menu">
                     <li><a href="newmenu_list.php">MENU</a></li>
                     <li><a href="homeservice.php">STORE</a></li>
@@ -142,7 +144,7 @@
                 </ul>
             </li>
             <li class="depth2"> 
-                <a href="#none">이벤트</a>
+                <a href="#none">이벤트<img src="images/step_down_w.png" alt="arrow_img"></a>
                 <ul class="depth2_menu">
                     <li><a href="event_list.php"><span class="currently">이벤트</span></a></li>
                     <li><a href="partner_service.php">제휴 서비스</a></li>

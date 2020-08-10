@@ -11,7 +11,7 @@
 .ticket_ex{width:1200px;margin:0 auto 50px;line-height:30px;font-size:18px}
 .notice_bg{padding:50px 0 150px;background:#f0f0f0}
 .notice{width:1200px;margin:auto}
-.notice h3{font-size:20px;font-weight: normal;margin-bottom:10px}
+.notice h3{font-size:20px;font-weight:normal;margin-bottom:10px}
 .notice li{line-height:30px}
 .notice li:before{content:"- "}
 

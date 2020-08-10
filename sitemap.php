@@ -6,6 +6,8 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <title>사이트맵 | 크리스피크림도넛</title>
     <link rel="stylesheet" type="text/css" href="style/common.css">
     <link rel="stylesheet" type="text/css" href="style/sitemap.css">

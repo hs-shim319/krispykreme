@@ -14,7 +14,7 @@
 .brand_story{width:1200px;margin:auto;padding-bottom:150px}
 .brand_story .sub_title{height:250px;text-align: center;background:url(../images/brand_story_sub_bg.png) no-repeat right;padding-top:96px;box-sizing: border-box}
 .brand_story .sub_title h3{font-size:25px;margin-bottom:20px}
-.brand_story h4{color:#d0112b;font-size:20px}
+.brand_story h4{color:#d0112b}
 .brand_story h4 span{width:50px;height:50px;display:inline-block;text-align: center;background: #d0112b;line-height: 50px;border-radius:30px;color:#fff;margin-right:10px;font-size:30px}
 .bs_content{padding:25px 0;border-bottom:1px solid #e0e0e0}
 .bs_content_l{padding:25px 0}

@@ -3,6 +3,8 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <title>아이스크림/프로즌 | MENU | 크리스피크림도넛</title>
     <link rel="stylesheet" type="text/css" href="style/common.css">
     <link rel="stylesheet" type="text/css" href="style/icecream.css">
@@ -124,7 +126,7 @@
             <li class="home">
             <a href="index.php">HOME</a></li>
             <li class="depth1">
-                <a href="#none">MENU</a>
+                <a href="#none">MENU<img src="images/step_down_w.png" alt="arrow_img"></a>
                 <ul class="depth1_menu">
                     <li><a href="newmenu_list.php"><span class="currently">MENU</span></a></li>
                     <li><a href="homeservice.php">STORE</a></li>
@@ -134,7 +136,7 @@
                 </ul>
             </li>
             <li class="depth2"> 
-                <a href="#none">아이스크림/프로즌</a>
+                <a href="#none">아이스크림/프로즌<img src="images/step_down_w.png" alt="arrow_img"></a>
                 <ul class="depth2_menu">
                     <li><a href="newmenu_list.php">신메뉴/인기메뉴</a></li>
                     <li><a href="dom.php">이달의 메뉴</a></li>

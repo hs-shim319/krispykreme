@@ -9,6 +9,8 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <title>매장찾기 | STORE | 크리스피크림도넛</title>
     <link rel="stylesheet" type="text/css" href="style/common.css">
     <link rel="stylesheet" type="text/css" href="style/find_store.css">
@@ -355,7 +357,7 @@
             <li class="home">
             <a href="index.php">HOME</a></li>
             <li class="depth1">
-                <a href="#none">STORE</a>
+                <a href="#none">STORE<img src="images/step_down_w.png" alt="arrow_img"></a>
                 <ul class="depth1_menu">
                     <li><a href="newmenu_list.php">MENU</a></li>
                     <li><a href="homeservice.php"><span class="currently">STORE</span></a></li>
@@ -365,7 +367,7 @@
                 </ul>
             </li>
             <li class="depth2"> 
-                <a href="#none">매장찾기</a>
+                <a href="#none">매장찾기<img src="images/step_down_w.png" alt="arrow_img"></a>
                 <ul class="depth2_menu">
                     <li><a href="homeservice.php">홈 서비스</a></li>
                     <li><a href="find_store.php"><span class="currently">매장찾기</span></a></li>

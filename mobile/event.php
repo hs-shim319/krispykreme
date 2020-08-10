@@ -93,7 +93,7 @@
                         <li class="voc"><a href="#">1:1 문의</a></li>
                     </ul>
             </nav><!--gnb-->
-            <a href="#none" class="back_btn" onclick="go_back()">뒤로가기</a>
+            <a href="#none" class="back_btn" onclick="history.go(-1); return false;">뒤로가기</a>
         </div><!--header_bottom-->
         </div>
         <div class="gnb_bg"></div>

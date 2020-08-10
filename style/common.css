@@ -11,6 +11,7 @@ table{border-spacing:0}
 .spanblock{display:block}
 .bold{font-weight:bold}
 .redtxt{color:#d0112b}
+* {-webkit-text-size-adjust:none}
 
 .h_skip{position:relative;z-index:1000}
 .h_skip>a{display:block;width:150px;background: #222;height:40px;text-align: center;line-height: 40px;color:#fff;position: absolute;top:-50px;display:none}
@@ -69,9 +70,12 @@ h1>a{display:block;width:127px;height:69px}
 .location_bar{width:1200px;margin:auto}
 .location_bar ul{overflow:hidden;line-height:35px}
 .location_bar li{float:left}
-.location_bar>ul>li>a{color:#fff}
+.location_bar>ul>li>a{color:#fff;position:relative}
+.depth1>a,.depth2>a{color:#fff;position:relative;padding-right:20px}
 .location_bar .home:after,.location_bar .depth1:after{content:">";margin:10px;color:#fff}
-.depth1>a,.depth2>a{background:url(../images/step_down_w.png) no-repeat right;padding-right:20px}
+.location_bar .scroll_loca:after{content:">";margin:10px;color:#222}
+.depth1>a img,.depth2>a img{transition:0.2s;position:absolute;right:0;margin-top:10px}
+.depth1>a:hover img,.depth2>a:hover img{transform:rotate(-180deg)}
 .depth1_menu,.depth2_menu{position:absolute;background:#fff;border:1px solid #e0e0e0;padding:15px;margin-left:-20px}
 .depth1_menu li,.depth2_menu li{clear:both;line-height:25px}
 .depth1_menu>li>a:hover,.depth2_menu>li>a:hover{color:#d0112b;font-weight:bold}

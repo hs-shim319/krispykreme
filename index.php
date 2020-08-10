@@ -10,9 +10,13 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="viewport" content="width=1200">
     <title>크리스피크림도넛</title>
     <link rel="stylesheet" type="text/css" href="style/main.css">
     <link rel="stylesheet" type="text/css" href="style/common.css">
+   <!-- 포트폴리오 페이지에서 PC버전을 보여주기 위해 주석처리함 -->
+   <!-- 
     <script type="text/javascript">
         var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson');
         for (var word in mobileKeyWords){
@@ -22,6 +26,7 @@
             }
         }
     </script>
+    -->
     <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/logout.js"></script>

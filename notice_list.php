@@ -9,6 +9,8 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <title>공지사항 | CUSTOMER | 크리스피크림도넛</title>
     <link rel="stylesheet" type="text/css" href="style/common.css">
     <link rel="stylesheet" type="text/css" href="style/notice_list.css">
@@ -132,7 +134,7 @@
             <li class="home">
             <a href="index.php">HOME</a></li>
             <li class="depth1">
-                <a href="#none">CUSTOMER</a>
+                <a href="#none">CUSTOMER<img src="images/step_down_w.png" alt="arrow_img"></a>
                 <ul class="depth1_menu">
                     <li><a href="newmenu_list.php">MENU</a></li>
                     <li><a href="homeservice.php">STORE</a></li>
@@ -142,7 +144,7 @@
                 </ul>
             </li>
             <li class="depth2"> 
-                <a href="#none">공지사항</a>
+                <a href="#none">공지사항<img src="images/step_down_w.png" alt="arrow_img"></a>
                 <ul class="depth2_menu">
                     <li><a href="notice_list.php">공지사항</a></li>
                     <li><a href="faq.php">고객의 소리</a></li>
