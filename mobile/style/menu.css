@@ -65,7 +65,7 @@
 .vouchers>p>span{color:#d0112b}
 .vouchers ul{text-align:center;margin:0 2%;overflow:hidden}
 .vouchers li{float:left;width:46%;margin:20px 2% 0}
-.vouchers img{width:100%;margin-bottom:15px}
+.vouchers img{margin-bottom:15px}
 .ticket_ex{margin:20px 4% 50px;line-height:25px;color:#383838}
 .ticket_ex span{font-weight:bold}
 /*voucher*/

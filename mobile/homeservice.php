@@ -1,13 +1,16 @@
-<?php include "../inc/session.php"; ?>
+<?php 
+    include "../inc/session.php"; 
+    include "../inc/dbcon.php";
+?>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="images/favicon.ico">
-    <title>제휴 서비스 | EVENT | 크리스피크림도넛</title>
+    <title>홈 서비스 | STORE | 크리스피크림도넛</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
     <link rel="stylesheet" type="text/css" href="style/common.css">
-    <link rel="stylesheet" type="text/css" href="style/event.css">
+    <link rel="stylesheet" type="text/css" href="style/store.css">
     <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript">
@@ -30,7 +33,7 @@
         <div class="header_bottom_wrap">
         <div class="header_bottom">
             <h1><a href="index.php">크리스피크림도넛</a></h1>
-            <h2 class="title">EVENT</h2>
+            <h2 class="title">STORE</h2>
             <nav class="gnb">
                 <h2>메인메뉴</h2>
                 <a href="#none" class="menu_btn"></a>
@@ -94,57 +97,51 @@
     </header>
     
     <section class="location_bar">
-        <p><a href="#none">제휴 서비스</a></p>
+        <p><a href="#none">홈 서비스</a></p>
            <ul>
-              <li><a href="event_list.php">진행 이벤트</a></li>
-              <li><a href="event_finish.php">종료 이벤트</a></li>
-              <li><a href="event_winner.php">당첨자 발표</a></li>
-              <li><span class="currently"><a href="#none">제휴 서비스</a></span></li>
+              <li><span class="currently"><a href="#none">홈 서비스</a></span></li>
+              <li><a href="store.php">매장찾기</a></li>
            </ul>
     </section>
     
-    <main id="content" class="content">
-            <div class="p_tab">
-                <ul>
-                    <li class="currently"><a href="#none">결제종류</a></li>
-                    <li><a href="#none">포인트적립</a></li>
-                    <li><a href="#none">제휴할인</a></li>
-                </ul>
-            </div>            
-            <div class="p_list">
-                <div class="tab1">
-                <dl>
-                    <dt class="hide_text">결제종류</dt>
-                    <dd><span class="img"><img src="images/partner_lotteeatz.png" alt=""></span>LOTTE EATZ 카드<a href="#">자세히 보기 ></a></dd>
-                    <dd><span class="img"><img src="images/partner_card.png" alt=""></span>카드형 금액권<span class="txt">고객센터 : 1644-5368</span><a href="#">자세히 보기 ></a></dd>
-                    <dd><span class="img"><img src="images/partner_mobile.png" alt=""></span>모바일 쿠폰<span class="txt">아이넘버 고객센터 : 1644-4276</span><span class="g_txt">※ 조회/연장은 쿠폰 구매처 문의 바랍니다.</span><a href="#">쿠폰 조회 ></a></dd>
-                    <dd><span class="img"><img src="images/partner_lpay.png" alt=""></span>L.pay<span class="txt">고객센터 : 1899-6300</span><a href="#">자세히 보기 ></a></dd>
-                    <dd><span class="img"><img src="images/partner_kakaopay.png" alt=""></span>카카오페이<span class="txt">고객센터 : 1644-7405</span><a href="#">자세히 보기 ></a></dd>
-                    <dd><span class="img"><img src="images/partner_payco.png" alt=""></span>PAYCO<span class="txt">고객센터 : 1544-6891</span><a href="#">자세히 보기 ></a></dd>
-                    <dd><span class="img"><img src="images/partner_zeropay.png" alt=""></span>제로페이<span class="txt">고객센터 : 1670-0582</span><a href="#">쿠폰 조회 ></a></dd>
-                    <dd><span class="img"><img src="images/partner_cashbee.png" alt=""></span>캐시비<span class="txt">고객센터 : 1644-0006</span><a href="#">자세히 보기 ></a></dd>
-                    <dd><span class="img"><img src="images/partner_alipay.png" alt=""></span>알리페이<a href="#">쿠폰 조회 ></a></dd>
-                </dl>
-                <p>*크리스피크림도넛 결제시스템 미이용 특수점 및 일부 점포는 이용에 제한이 있을 수 있습니다.</p>
-                </div>
-                <div class="tab2">
-                <dl>
-                    <dt class="hide_text">포인트 적립</dt>
-                    <dd class="ddcenter"><span class="img"><img src="images/partner_lpoint.png" alt=""></span>L.point<span class="txt">고객센터 : 1899-8900</span><a href="#">자세히 보기 ></a></dd>
-                </dl>
-                <p class="cenp">*크리스피크림도넛 결제시스템 미이용 특수점 및 일부 점포는 이용에 제한이 있을 수 있습니다.</p>
-                </div>
-                <div class="tab3">
-                <dl>
-                    <dt class="hide_text">제휴 할인</dt>
-                    <dd class="ddcenter"><span class="img"><img src="images/partner_okcashbag.png" alt=""></span>OK 캐쉬백<span class="txt">고객센터 : 1599-0512</span><a href="#">자세히 보기 ></a></dd>
-                </dl>
-                <p class="cenp">
-                * 모든 제휴할인은 중복 적용 불가합니다. (할인 품목 제휴 할인 제외)
-                <br>*크리스피크림도넛 결제시스템 미이용 특수점 및 일부 점포는 이용에 제한이 있을 수 있습니다.</p>
-                </div>
+    <main id="content" class="homeservice">
+            <div class="title">
+                <img src="images/homeservice_logo.png" alt="">
+                <h3><span>크리스피 크림 도넛</span>이 생각날 때!</h3>
+                <p>쉽고 편리한 크리스피크림 배달 서비스 시작!</p>
+                <p>집, 사무실 학교에서 더욱 편리하게 즐겨보세요!</p>
             </div>
-        </main>
+            <div class="best4">
+                <h3>크리스피 크림 <span class="delivery">딜리버리</span> BEST 4</h3>
+                <ul>
+                    <li><img src="images/homeservice_original.png" alt="오리지널 더즌"><p>오리지널 더즌</p></li>
+                    <li><img src="images/homeservice_asso.png" alt="어쏘티드 더즌"><p>어쏘티드 더즌</p></li>
+                    <li><img src="images/homeservice_milkcreme.png" alt="밀크크림도넛 더즌"><p>밀크크림도넛 더즌</p></li>
+                    <li><img src="images/homeservice_sparklingpunchpng.png" alt="스파클링 펀치"><p>스파클링 펀치</p></li>
+                </ul>
+            </div>        
+            <div class="mored">                    
+                <a href="dougnuts_list.php">더 많은 크리스피크림 도넛 보러가기 >>></a>
+            </div>
+            <div class="howto">
+                <h3 class="hide_text">유의사항</h3>
+                <p>아래 배달 가능 점포와 배달 방법을 확인해 주세요!</p>
+                <ul class="notice">
+                    <li>14,000원 이상 주문시 배달 가능합니다.</li>
+                    <li>할인쿠폰 및 모바일 쿠폰 사용불가 , 제휴카드 및 롯데멤버스 할인이 불가합니다.</li>
+                    <li>매장 상황에 따라 제품이 조기 품절될 수 있습니다.</li>
+                    <li>기상 조건 및 점포 상황에 따라서 홈서비스가 제한 또는 지연 될 수 있습니다.</li>
+                    <li>배달 가능한 지역인지 배달 어플 정보화면 또는 직원에게 다시 한번 확인해주세요!</li>
+                </ul>
+                <h3>구입채널</h3>
+                <ul class="channel">
+                    <li class="lotte"><img src="images/lotte_eatz.png" alt="lotte_eatz">롯데잇츠 주문<a href="#none">바로가기 ></a></li>
+                    <li class="baemin"><img src="images/baemin.png" alt="baemin">배달의 민족 주문<a href="#none">바로가기 ></a></li>
+                    <li class="yogiyo"><img src="images/yogiyo.png" alt="yogiyo">요기요 주문<a href="#none">바로가기 ></a></li>
+                    <li class="kakao"><img src="images/kakao.png" alt="kakao">카카오톡 모바일 주문<a href="#none">바로가기 ></a></li>
+                </ul>
+            </div>
+    </main>
     
     <div class="top_btn"><a href="#">맨 위로</a></div>
     <div class="footer_wrap">

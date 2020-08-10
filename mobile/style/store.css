@@ -1,0 +1,34 @@
+.homeservice{padding-top:110px}
+.homeservice .title{background:#fff3e2;text-align:center;padding:10px 0 20px;font-size:15px}
+.homeservice .title img{width:100px}
+.homeservice .title h3{line-height:30px}
+.homeservice .title h3 span{color:#d0112b}
+.homeservice .title{line-height:20px}
+.homeservice .best4{color:#fff;text-align:center;line-height:50px}
+.homeservice .best4 h3{font-weight:normal;font-size:18px;padding:10px 0;background:#d0112b}
+.homeservice .best4 h3{font-weight:normal;font-size:18px;padding:10px 0;background:#d0112b}
+.homeservice .best4 h3 span.delivery{display:inline-block;width:130px;background: url(../images/delivery.png) no-repeat center;text-indent:-9999px;margin:0 10px}
+.homeservice .best4 ul{background:#f7f7f7;color:#222;text-align:center;padding:10px 0}
+.homeservice .best4 li{display:inline-block;width:165px;height:165px;background:#fff;margin:5px;box-shadow:0 0 10px rgba(0,0,0,0.1)}
+.homeservice .best4 li img{width:90%;margin-bottom:-20px}
+.homeservice .mored{background:#e0e0e0;display:flex;justify-content:center;padding:10px 0}
+.homeservice .mored a{text-align:center;padding:10px 20px;border:1px solid #d0112b;color:#d0112b;box-sizing: border-box;border-radius:25px;font-weight:bold;background:#fff}
+.homeservice .howto{margin-top:30px;padding:0 2%}
+.homeservice .howto p{margin-bottom:10px}
+.homeservice .howto p:before{content:"▼ ";color:#d0112b}
+.homeservice .howto ul.notice li:before{content:"· ";color:#d0112b}
+.homeservice .howto ul.notice li{line-height:25px}
+.homeservice .howto ul.notice{margin-bottom:30px}
+.homeservice .howto h3{text-align:center;font-weight:normal;font-size:18px;padding-top:30px;border-top:1px solid #f0f0f0;margin-bottom:30px}
+
+.homeservice .howto .channel{text-align:center}
+.homeservice .howto .channel>li{display:inline-block;width:165px;height:180px;text-align:center;margin:3px}
+.homeservice .howto .channel li.lotte img{display:block;margin:0 auto 20px}
+.homeservice .howto .channel li.baemin img,li.yogiyo img,li.kakao img{display:block;width:80%;margin:0 auto 20px}
+.homeservice .howto .channel li a{display:block; margin:15px auto 0;width:150px;height:30px;line-height:30px;box-sizing:border-box;border:1px solid #166936;border-radius:20px}
+
+.store{padding:150px 2% 50px;background:#f0f0f0;margin-bottom:400px}
+.sel_store{width:100%;height:40px;margin:10px 0;border:1px solid #e0e0e0}
+#store_name{width:100%;height:40px;margin:10px 0 20px;border:1px solid #a0a0a0;padding:0 5px;box-sizing:border-box}
+fieldset{border:0}
+.store button{width:100%;border:0;background:#d0112b;color:#fff;line-height:40px;border-radius:5px}

@@ -100,8 +100,8 @@
                                 <li><a href="store_merchants.php">가맹점모집</a></li>
                             </ul>
                         </li>
-                        <li class="faq"><a href="#">FAQ</a></li>
-                        <li class="voc"><a href="#">1:1 문의</a></li>
+                        <li class="faq"><a href="faq.php">FAQ</a></li>
+                        <li class="voc"><a href="mylevel.php">L.Point등급안내</a></li>
                     </ul>
             </nav><!--gnb-->
             <a href="#none" class="back_btn" onclick="javascript:history.back();">뒤로가기</a>

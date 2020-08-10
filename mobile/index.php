@@ -11,6 +11,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
     <title>크리스피크림도넛</title>
     <link rel="stylesheet" type="text/css" href="style/main.css">
@@ -107,8 +108,8 @@
                                 <li><a href="store_merchants.php">가맹점모집</a></li>
                             </ul>
                         </li>
-                        <li class="faq"><a href="#">FAQ</a></li>
-                        <li class="voc"><a href="#">1:1 문의</a></li>
+                        <li class="faq"><a href="faq.php">FAQ</a></li>
+                        <li class="voc"><a href="mylevel.php">L.Point등급안내</a></li>
                     </ul>
             </nav><!--gnb-->
         </div><!--header_bottom-->

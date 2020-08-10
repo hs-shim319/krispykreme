@@ -82,7 +82,7 @@ span.gtxt{color:166936}
 .merchants_content>p{padding:30px 0;line-height:20px;font-size:18px;text-align:center;font-weight:bold}
 .merchants table{width:100%;text-align:center;line-height:30px;border-top:1px solid #a0a0a0;border-bottom:1px solid #e0e0e0;margin-bottom:50px}
 .merchants table th{font-weight:bold}
-.merchants table th,td{height:40px;border-top:1px solid #e0e0e0;padding:15px}
+.merchants table th,.merchants table td{height:40px;border-top:1px solid #e0e0e0;padding:15px}
 .merchants table .border_left{border-left:1px solid #e0e0e0}
 .merchants table td.border_cen{border-left:1px solid #e0e0e0;border-right:1px solid #e0e0e0}
 .merchants>p{float:right;color:#808080;margin-top:-35px}
@@ -96,6 +96,32 @@ span.gtxt{color:166936}
 .merchants .txt_title:before{content:"· ";color:#d0112b}
 .merchants .txt_sub{color:#808080;font-size:13px}
 
+.faq{padding-top:60px}
+.faq>p{text-align:center;padding:15px 0;background:#f0f0f0}
+.faq_list li{border-bottom:1px solid #e0e0e0;padding:13px 2%}
+.faq_list li.question span.more{float:right;background:url(../images/familysite_more.png) no-repeat;width:20px;text-indent:-9999px}
+.faq .answer{display:none;line-height:30px;background:#f0f0f0}
+.faq .answer span.line{display:block}
+.faq .q{font-weight:bold}
+.faq .a{font-weight:bold;color:#166936}
+
+.lpoint{padding:80px 2% 280px}
+.lpoint p{line-height:25px;margin-bottom: 10px}
+.lpoint p span.r{color:#d0112b}
+.lpoint p span.spanblock{display:block;font-size:0.8rem}
+.lpoint p:before{content:"· ";color:#d0112b}
+.lpoint p a{color:blue;text-decoration:underline}
+.lpoint_table{width:100%;text-align:center;line-height:30px;border-top:1px solid #e0e0e0;border-left:1px solid #e0e0e0;margin-bottom:20px;box-sizing:border-box}
+.lpoint_table th{width:190px;border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;box-sizing:border-box}
+.lpoint_table td{border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;box-sizing:border-box}
+.lpoint_table .tr_1{background:#e0e0e0}
+
+.notice{padding:80px 2% 0}
+.notice div.notice_tit{padding-bottom:20px;border-bottom:1px solid #e0e0e0}
+.notice_tit p{position:relative;font-size:18px}
+.notice_tit span{font-size:14px;display:block;line-height:20px;color:#a0a0a0}
+.notice_con{padding-top:30px}
+.notice_con>a{color:#166936;font-weight:bold;text-align:center;display:block;margin:50px 0 200px}
 
 @media screen and (max-width:767px) {
     .dougnut_theater .video iframe{height:30%}

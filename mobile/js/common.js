@@ -169,4 +169,13 @@ $(document).ready(function(){
        $(".dougnut_theater,.brand_story,.history").hide(); 
        $(".share_the_love").show();  
     });
+    
+    //faq
+    $(".faq_list li.question").click(function(){
+       $(".faq_list li.question").find("span.q").removeClass("redtxt");
+       $(".faq_list li.answer").stop().slideUp();  
+       $(this).siblings().stop().slideToggle();
+       $(this).find("span.q").addClass("redtxt");
+    });
+    
 });
