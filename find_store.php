@@ -433,11 +433,11 @@
                 </form>
             </div>
             <p class="store_num"><span class="redtxt"><?php echo $num;?></span>개의 매장</p>
+            
+            <div class="store_list"><!--전체 매장정보-->
             <?php for($i=1;$i<=$num;$i++){ 
                 $array=mysqli_fetch_array($result);
             ?>
-        
-            <div class="store_list"><!--전체 매장정보-->
                 <a href="#none">
                     <img src="images/store/<?php echo $array['img'];?>" alt="<?php echo $array["name"];?>">
                     <p class="store_name"><?php echo $array["name"];?></p>
@@ -446,8 +446,8 @@
                     <p>Tel.<?php echo $array["tel"];?></p> 
                     <p><?php echo $array["stime"];?></p>
                 </a>
-            </div>
             <?php } ?>
+            </div>
             </div>
         </main>
     

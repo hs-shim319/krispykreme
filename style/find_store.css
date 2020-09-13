@@ -1,7 +1,7 @@
 .title{background:url(../images/store_title_bg.jpg) center;margin-bottom:50px}
 .store_con{width:1200px;margin:auto;overflow:hidden}
-.store_list{width:270px;margin:0 15px 50px;line-height:30px;float:left}
-.store_list a{display:block}
+.store_list{line-height:30px;display:flex}
+.store_list a{display:block;width:270px;margin:0 15px 50px;}
 .store_list a:hover{opacity:0.6}
 .store_list img{margin-bottom:20px}
 .store_list .store_name{font-weight:bold;font-size:18px}
