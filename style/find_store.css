@@ -1,9 +1,9 @@
 .title{background:url(../images/store_title_bg.jpg) center;margin-bottom:50px}
-.store_con{width:1200px;margin:auto;overflow:hidden}
-.store_list{line-height:30px;display:flex}
-.store_list a{display:block;width:270px;margin:0 15px 50px;}
+.store_con{width:1200px;margin:auto}
+.store_list{overflow:hidden}
+.store_list a{line-height:30px;display:block;width:270px;margin:0 15px 50px;float:left}
 .store_list a:hover{opacity:0.6}
-.store_list img{margin-bottom:20px}
+.store_list a img{margin-bottom:20px;width:270px;height:200px}
 .store_list .store_name{font-weight:bold;font-size:18px}
 .hotnow{color:#d0112b;background:url(../images/ico_clock.png) no-repeat center left;padding-left:20px;font-weight:bold}
 .movie{color:#166936;background:url(../images/ico_movie.png) no-repeat center left;padding-left:20px;font-weight:bold}
