@@ -242,6 +242,7 @@
     </script>
 </head>
 <body>
+    <div class="map_wrap"></div>
     <div class="h_skip">
         <a href="#content">본문으로 바로가기</a>
         <a href="login/login.php">로그인 바로가기</a>
@@ -446,6 +447,14 @@
                     <p>Tel.<?php echo $array["tel"];?></p> 
                     <p><?php echo $array["stime"];?></p>
                 </a>
+                <div class="store_detail">
+                    <p><span class="bold"><?php echo $array["name"];?></span></p>
+                    <p>Tel : <?php echo $array["tel"];?></p>
+                    <p>영업시간 : <?php echo $array["stime"];?></p>
+                    <p class="hotnow"><?php if($array["hotnow"] != null){echo 'HOT Light Hour : '.$array['hotnow'];}?></p>
+                    <p class="movie"><?php if($array['movie']=='y'){echo "도넛극장";}?></p>
+                    <a href="#none">닫기</a>
+                </div>
             <?php } ?>
             </div>
             </div>

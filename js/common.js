@@ -273,7 +273,7 @@ $(document).ready(function(){
     
     
     //매장지도
-    $(".store_list").click(function(){
+    $(".store_list a").click(function(){
         $(".map_wrap").show();
         $(this).next(".store_detail").show();
         $(this).siblings(".map").show();

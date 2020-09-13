@@ -21,9 +21,9 @@ span.txt{display:inline-block;width:100px;line-height:50px}
 .store_select p.checkbox label{margin-left:5px}
 
 .map_wrap{width:100%;height:100%;background:rgba(0,0,0,0.6);position:fixed;top:0;z-index:5;display:none}
-.store_detail{width:1000px;height:200px;background:#fff;position:fixed;top:100px;z-index:6;padding:50px;box-sizing:border-box;display:none;left:50%;margin-left:-500px;line-height:30px}
+.store_detail{width:800px;height:300px;background:#fff;position:fixed;top:50%;margin-top:-150px;z-index:6;padding:50px;box-sizing:border-box;display:none;left:50%;margin-left:-400px;line-height:30px}
 .store_detail a{position:absolute;top:30px;right:30px;;background:url(../images/exit.png) no-repeat;width:30px;text-indent:-9999px}
-.map{width:1000px;height:350px;position:fixed;top:300px;z-index:6;display:none;left:50%;margin-left:-500px}
+.map{width:1000px;height:350px;position:fixed;top:20%;z-index:6;display:none;left:50%;margin-top:200px;margin-left:-500px}
 .bold{font-weight:bold}
 
 .con>a.research_btn{width:1200px;border:1px solid #a0a0a0;line-height:50px;text-align: center; display:block;background:#fff;cursor:pointer;margin-bottom:20px}
