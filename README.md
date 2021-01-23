@@ -26,4 +26,4 @@ krispykreme webpage and reponsive(in 'mobile' folder) renewal page (with design 
 * 관리자모드 제공
 
 
-[〰링크〰](http://hsshim.dothome.co.kr/krispykreme)
+[〰PC버전〰](http://hsshim.dothome.co.kr/krispykreme) / [〰반응형버전〰](http://hsshim.dothome.co.kr/krispykreme/mobile)
